@@ -18,7 +18,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "victor.pdf", title: "CV", icon: home}
-  - {title: "Lab", URL: "https://sites.uwm.edu/kalkbrennerlabs/"}
+  - {title: "Lab", url: "https://sites.uwm.edu/kalkbrennerlabs/"}
   - {title: "Blog", file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
