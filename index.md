@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Blog"
+title: 
 
 ---
 I am an assistant professor at the Department of Public Health at Universidad del Norte, Barranquilla - Colombia.
