@@ -17,7 +17,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "victor.pdf", title: "CV", icon: home}
+  - {file: "Victor.pdf", title: "CV", icon: home}
   - {title: "Lab", url: "https://sites.uwm.edu/kalkbrennerlabs/"}
   - {title: "Blog", file: "blog.md"}
 
