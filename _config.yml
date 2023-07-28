@@ -25,7 +25,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:vaflorez@uwm.edu"}
   - {title: Github, icon: github, url: "https://github.com/victorflorez"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/vitorflorez"}
-  - {title: Google, icon: google-scholar, url: "https://scholar.google.es/citations?user=8kN367IAAAAJ&hl=es"}
+  - {title: Google, icon: google, url: "https://scholar.google.es/citations?user=8kN367IAAAAJ&hl=es"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
