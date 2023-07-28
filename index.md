@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About me"
+title: ""
 
 ---
 I am (Victor Florez-Garcia) an assistant professor at the Department of Public Health at Universidad del Norte, Barranquilla - Colombia.
