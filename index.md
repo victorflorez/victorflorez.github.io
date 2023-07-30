@@ -8,7 +8,7 @@ categories:
   -website
 ---
 
-## Victor A. Florez-Garcia**
+## Victor A. Florez-Garcia
   
   @vitorflorez
 
