@@ -14,11 +14,15 @@ Joseph J. Zilber, School of Public Health
 
 University of Wisconsin, Milwaukee. USA
 
+[link] (https://uwm.edu/)
+
 ## M.Sc Epidemiology
 
 School of Medicine
 
 Universidad CES - Medellín, Colombia
+
+[link] (https://www.ces.edu.co/)
 
 ## Biology, Biotechnology Track
 
@@ -26,4 +30,4 @@ School of Sciences and Education
 
 Universidad de Sucre -Sincelejo, Colombia
 
-[link] (https://sites.uwm.edu/kalkbrennerlabs/)
+[link] (https://unisucre.edu.co/)
