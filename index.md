@@ -8,9 +8,7 @@ title: ""
   
   @vitorflorez
 
-  Ph.D Candidate - Environmental Health Sciences | Environmental Epidemiology | University of Wisconsin, MKE 
-  @publichealthUWM @UWM | Faculty member: @UninorteSalud | Views my own
-
+  
   **About:**
 
   I am an assistant professor at the Department of Public Health at Universidad del Norte, Barranquilla - Colombia.
