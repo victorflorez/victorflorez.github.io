@@ -1,11 +1,6 @@
 ---
----
-title:  "Education"
-mathjax: true
-layout: post
-categories: 
-  -github
-  -website
+layout: page
+title: ""
 ---
 
 ## Victor A. Florez-Garcia
