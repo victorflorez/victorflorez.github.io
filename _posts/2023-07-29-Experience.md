@@ -1,5 +1,5 @@
 ---
-title:  "Expereience"
+title:  "Experience"
 mathjax: true
 layout: post
 categories: 
