@@ -7,6 +7,13 @@ categories:
   -website
 ---
 
+## Embedded content
+
+What is public health? Here are some folks talking about:
+
+{% include embed.html url="[https://www.youtube.com/embed/_C0A5zX-iqM](https://www.youtube.com/watch?v=citkbBNd6FY)https://www.youtube.com/watch?v=citkbBNd6FY" %}
+
+
 
 26- 2023. Meza-González YA, Alfosno-Arrieta N, Salas-Solorzano S, **Florez-García V.** Sodium-Glucose Co-Transporter Type 2 Inhibitors and Heart Failure: A Review of the State of the Art. Iberoam J Med. 2023;4(3):169-173. doi: http://dx.doi.org/10.53986/ibjm.2023.0009. [link](https://www.iberoamjmed.com/article/doi/10.53986/ibjm.2023.0009)
  
@@ -60,8 +67,3 @@ categories:
 
 1- 2010. Montiel J, Bedoya A, **Flórez V**, Sánchez G. Variants of Human Papillomavirus 16 and its association with HLA in cervical cancer. Salud Uis Colombia ISSN: 0121v.42 fasc.3 p.272 - ,2010.[link](http://www.scielo.org.co/scielo.php?pid=S0121-08072010000300011&script=sci_abstract&tlng=en)
 
-## Embedded content
-
-What is public health? Here some folks talking about:
-
-{% include embed.html url="[https://www.youtube.com/embed/_C0A5zX-iqM](https://www.youtube.com/watch?v=citkbBNd6FY)https://www.youtube.com/watch?v=citkbBNd6FY" %}
