@@ -59,3 +59,9 @@ categories:
 2- 2014. Lopera EA, Baena A, **Flórez V**, Ramírez T, Bedoya G, Borrero M, Córdoba C, Montiel J, Rojas F, Duque C, Pareja R, Bedoya A, Sánchez G. Unexpected inverse correlation between Native American ancestry and Asian American variants of HPV16 in admixed Colombian cervical cancer cases. Infection, Genetics And Evolution ISSN: 1567-1348  ed: Elsevier. v.10 fasc. p.1 - 10 ,2014 [link](https://pubmed.ncbi.nlm.nih.gov/25446942/)
 
 1- 2010. Montiel J, Bedoya A, **Flórez V**, Sánchez G. Variants of Human Papillomavirus 16 and its association with HLA in cervical cancer. Salud Uis Colombia ISSN: 0121v.42 fasc.3 p.272 - ,2010.[link](http://www.scielo.org.co/scielo.php?pid=S0121-08072010000300011&script=sci_abstract&tlng=en)
+
+## Embedded content
+
+What is public health? Here some folks talking about:
+
+{% include embed.html url="[https://www.youtube.com/embed/_C0A5zX-iqM](https://www.youtube.com/watch?v=citkbBNd6FY)https://www.youtube.com/watch?v=citkbBNd6FY" %}
