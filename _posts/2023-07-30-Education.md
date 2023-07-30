@@ -7,17 +7,16 @@ categories:
   -website
 ---
 
-### Education
-
-Ph.D. (c) Environmental Health Sciences, Environmental Epidemiology Track .  2019-  2024  (Expected)
+### Ph.D. (c) Environmental Health Sciences, Environmental Epidemiology Track .  
+2019-  2024  (Expected)
 Joseph J. Zilber, School of Public Health
 University of Wisconsin, Milwaukee. USA
 
-M.Sc Epidemiology
+## M.Sc Epidemiology
 School of Medicine
 Universidad CES - Medellín, Colombia
 
-Biology, Biotechnology Track
+## Biology, Biotechnology Track
 School of Sciences and Education
 Universidad de Sucre -Sincelejo, Colombia
 
