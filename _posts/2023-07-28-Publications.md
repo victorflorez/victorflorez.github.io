@@ -11,7 +11,7 @@ categories:
 
 What is public health? Here are some folks talking about:
 
-{% include embed.html url="[https://www.youtube.com/embed/_C0A5zX-iqM](https://www.youtube.com/watch?v=citkbBNd6FY)https://www.youtube.com/watch?v=citkbBNd6FY" %}
+{% include embed.html url="https://www.youtube.com/watch?v=citkbBNd6FY" %}
 
 
 
