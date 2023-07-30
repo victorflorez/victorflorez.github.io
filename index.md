@@ -1,20 +1,24 @@
 ---
-layout: page
-title: ""
-
+---
+title:  "Education"
+mathjax: true
+layout: post
+categories: 
+  -github
+  -website
 ---
 
-  **Victor A. Florez-Garcia**
+## Victor A. Florez-Garcia**
   
   @vitorflorez
 
   
-  **About:**
+## About:
+I am an assistant professor at the Department of Public Health at Universidad del Norte, Barranquilla - Colombia.
 
-  I am an assistant professor at the Department of Public Health at Universidad del Norte, Barranquilla - Colombia.
 
-
-  **Research Areas:** My interests lie at the intersection between environmental exposures and children´s neurodevelopmental outcomes.  Also, I´m interested in the latest generation of quantitative methods in epidemiology and new causal inference methods. Currently, I´m studying the effect of heavy metal mixtures on children's cognitive abilities.
+## Research Areas:
+My interests lie at the intersection between environmental exposures and children´s neurodevelopmental outcomes.  Also, I´m interested in the latest generation of quantitative methods in epidemiology and new causal inference methods. Currently, I´m studying the effect of heavy metal mixtures on children's cognitive abilities.
 
 
 
