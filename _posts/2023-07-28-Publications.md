@@ -2,9 +2,7 @@
 title:  "Publications"
 mathjax: true
 layout: post
-categories: 
-  -github
-  -website
+categories: media
 ---
 
 
