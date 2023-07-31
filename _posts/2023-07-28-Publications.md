@@ -7,7 +7,6 @@ categories: media
 
 
 
-Embedded content
 ## What is public health? Here are some folks talking about:
 
 {% include embed.html url="https://www.youtube.com/watch?v=citkbBNd6FY" %}
