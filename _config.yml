@@ -27,6 +27,8 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/victorflorez"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/vitorflorez"}
   - {title: Google, icon: google, url: "https://scholar.google.es/citations?user=8kN367IAAAAJ&hl=es"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/v%C3%ADctor-florez-garcia-46148267/"}
+  - {title: ORCID, icon: orcid, url: "https://orcid.org/0000-0002-1548-623X"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
