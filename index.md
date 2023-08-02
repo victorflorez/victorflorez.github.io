@@ -1,6 +1,5 @@
 ---
 layout: page
-mathjax: true             #to visualize embed youtube videos
 title: ""
 ---
 
