@@ -1,6 +1,5 @@
 ---
 title:  "Education"
-mathjax: true
 layout: post
 categories: 
   -github
