@@ -20,7 +20,7 @@ My interests lie at the intersection between environmental exposures and childre
 
 ## What is public health? Here are some folks talking about:
 
-- {% embed.html include.url: "https://www.youtube.com/watch?v=citkbBNd6FY" %}
+{% include embed.html url= "https://www.youtube.com/watch?v=citkbBNd6FY" %}
 
 
    **Contact Information:**
