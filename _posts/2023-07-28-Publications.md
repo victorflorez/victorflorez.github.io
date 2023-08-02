@@ -8,7 +8,7 @@ categories: media
 
 ## What is public health? Here are some folks talking about:
 
-- {% embed.html include.url="https://www.youtube.com/watch?v=citkbBNd6FY" %}
+- {% embed.html include.url: "https://www.youtube.com/watch?v=citkbBNd6FY" %}
 
 ## List
 
