@@ -6,11 +6,7 @@ categories: media
 
 
 
-## What is public health? Here are some folks talking about:
-
-- {% embed.html include.url: "https://www.youtube.com/watch?v=citkbBNd6FY" %}
-
-## List
+## Peer Reviewed Articles
 
 26- 2023. Meza-González YA, Alfosno-Arrieta N, Salas-Solorzano S, **Florez-García V.** Sodium-Glucose Co-Transporter Type 2 Inhibitors and Heart Failure: A Review of the State of the Art. Iberoam J Med. 2023;4(3):169-173. doi: http://dx.doi.org/10.53986/ibjm.2023.0009. [link](https://www.iberoamjmed.com/article/doi/10.53986/ibjm.2023.0009)
  
