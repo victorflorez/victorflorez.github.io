@@ -1,6 +1,5 @@
 ---
 title:  "Publications"
-mathjax: false
 layout: post
 categories: media
 ---
@@ -9,7 +8,7 @@ categories: media
 
 ## What is public health? Here are some folks talking about:
 
-- {% include embed.html url="https://www.youtube.com/watch?v=citkbBNd6FY" %}
+- {% embed.html url="https://www.youtube.com/watch?v=citkbBNd6FY" %}
 
 ## List
 
