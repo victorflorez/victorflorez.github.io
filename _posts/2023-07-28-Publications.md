@@ -1,6 +1,6 @@
 ---
 title:  "Publications"
-mathjax: true
+mathjax: false
 layout: post
 categories: media
 ---
