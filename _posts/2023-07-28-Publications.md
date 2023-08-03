@@ -8,7 +8,7 @@ categories: media
 
 <iframe width="560" height="315" src="[https://www.youtube.com/embed/citkbBNd6FY](https://www.youtube.com/watch?v=E6KoMAbz1Bw&t=237s)" frameborder="0" allowfullscreen></iframe>
 
-by Dr. Bruce Lanphear [link](https://www.sfu.ca/fhs/about/people/profiles/bruce-lanphear.html)
+by *Dr. Bruce Lanphear* [link](https://www.sfu.ca/fhs/about/people/profiles/bruce-lanphear.html)
 
 ## Peer Reviewed Articles
 
