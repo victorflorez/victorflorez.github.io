@@ -9,7 +9,7 @@ categories:
 ### Ph.D. (c) Environmental Health Sciences, Environmental Epidemiology Track .  
 2019-  2024  (Expected)
 
-Joseph J. Zilber, School of Public Health
+Joseph J. Zilber, College of Public Health
 
 University of Wisconsin, Milwaukee. USA [link](https://www.uwm.edu)
 
