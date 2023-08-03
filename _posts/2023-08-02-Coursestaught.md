@@ -17,5 +17,4 @@ categories: media
 |2018(Spring-Fall) | MFC8388; EST4020; NV13002; SPB4000; CBM43006 | **Clinical Epidemiology** (Undergraduate); **Biostatistics** (Undergraduate); **Clinical Research** (Graduate); **Evidence-Based Medicine** (Undergraduate); **Epidemiology** (Graduate) Medical School. Universidad del Norte. | 
 | 2017(Spring-Fall) | MFC8388; EST4020; INV13002. | **Clinical Epidemiology** (Undergraduate); **Biostatistics** (Undergraduate); **Clinical Research** (Graduate). Medical School. Universidad del Norte. | 
 | 2009-2015
-(Spring-Fall) | *Co-Instructor* | Research Laboratory. Infection and Cancer Group - Medical School.
-Universidad de Antioquia | 
+(Spring-Fall) | *Co-Instructor* | Research Laboratory. Infection and Cancer Group - Medical School. Universidad de Antioquia | 
