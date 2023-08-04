@@ -10,6 +10,7 @@ categories: media
 
 | Period           | Cods              | Name, Level, University            | 
 |------------------|------------------|-----------------|
+| 2023(Spring-Fall)| MFC3888; CLI13096 |**Clinical Epidemiology** (Undergraduate); **Clinical Research** (Graduate). Medical School. Universidad del Norte|
 | 2022(Spring-Fall)| MFC3888; CLI13096 |**Clinical Epidemiology** (Undergraduate); **Clinical Research** (Graduate). Medical School. Universidad del Norte|
 | 2021(Spring-Fall)     | MFC4075; CLI13096   |**Clinical Epidemiology** (Undergraduate); **Clinical Research** (Graduate). Medical School. Universidad del Norte. 
 | 2020(Fall)      | MFC7020; CBM43006; CLI13096     | **General Epidemiology** (Physician– Undergraduate); **Clinical Epidemiology** (Graduate); **Clinical Research** (Graduate). Medical School. Universidad del Norte   | 
