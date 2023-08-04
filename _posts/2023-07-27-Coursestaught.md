@@ -6,7 +6,7 @@ categories: media
 
 
 
-## Courses
+
 
 | Period           | Cods              | Name, Level, University            | 
 |------------------|------------------|-----------------|
