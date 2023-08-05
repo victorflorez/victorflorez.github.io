@@ -3,6 +3,7 @@ title:  "Publications"
 layout: post
 categories: media
 ---
+<img width="613" alt="image" src="https://github.com/victorflorez/victorflorez.github.io/assets/100101223/a06347af-c706-4448-aab2-4a5899886fdc">
 
 
 ## Peer Reviewed Articles
