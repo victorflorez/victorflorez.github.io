@@ -6,10 +6,6 @@ categories:
   -website
 ---
 
-**Master of Public Health Students** – Academic and Capstone Advisor
-
-![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/989b635b-1b4d-46a6-941e-f5d75e6e9257)
-
 
 ![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/9d5e6db3-1127-405b-95d6-7c04c88a3452)
 
