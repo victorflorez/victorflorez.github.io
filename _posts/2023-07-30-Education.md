@@ -23,7 +23,7 @@ Universidad CES - Medellín, Colombia [link](https://www.ces.edu.co)
 
 
 
-## Biology, Biotechnology Track
+## B.Sc Biology, Biotechnology Track
 
 School of Sciences and Education
 
