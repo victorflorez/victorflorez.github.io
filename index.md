@@ -7,10 +7,11 @@ title: ""
 ## Victor A. Florez-Garcia
   
  
+![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/228e70d9-8dd6-40c5-aa65-ff9c473fd5bf)
 
   
 ## About:
-I am an assistant professor at the Department of Public Health at Universidad del Norte, Barranquilla - Colombia. I am a PhD candidate in environmental heath sciences, specializing in environmental epidemiology, at  the University of Wisconsin, Milwaukee. I work with Dr. Amy Kalkbrenner on environmental exposures that affect neurodevelopment in children. However, I have broad previous experience in social and clinical epidemiology.
+I currently hold the position of Assistant Professor at the Department of Public Health at Universidad del Norte in Barranquilla, Colombia. Concurrently, I am pursuing my Ph.D. in Environmental Health Sciences with a specialization in Environmental Epidemiology at the University of Wisconsin, Milwaukee, under the guidance of Dr. Amy Kalkbrenner. My doctoral research focuses on investigating the impact of environmental exposures on neurodevelopment in children.My professional journey has provided me with a diverse background in epidemiology, encompassing both social and clinical aspects.
 
 I highly appreciate diversity, inclusion, and a sense of belonging. My dedication extends to fostering these principles not only in research, academia, and clinical practice, but also in other spheres.
 
