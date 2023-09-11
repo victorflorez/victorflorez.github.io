@@ -7,7 +7,8 @@ title: ""
 ## Victor A. Florez-Garcia
   
  
-![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/228e70d9-8dd6-40c5-aa65-ff9c473fd5bf)
+![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/384caa41-c5c2-45ad-a4cb-167e948e4376)
+
 
   
 ## About:
