@@ -8,6 +8,8 @@ categories: media
 
 ## Peer Reviewed Articles
 
+27- 2023. Hawkins MM, **Florez-Garcia V**, Guevara-Romero E, Santacruz-Salas E, Ruiz A. Social Cognitive Theory-Based Interventions to Address Interpersonal Violence Among Hispanic Youth—A Systematic Review. Hispanic Health Care International. 2023;0(0). doi:10.1177/15404153231187381 [link](https://journals.sagepub.com/doi/10.1177/15404153231187381?icid=int.sj-abstract.citing-articles.2)
+
 26- 2023. Meza-González YA, Alfosno-Arrieta N, Salas-Solorzano S, **Florez-García V.** Sodium-Glucose Co-Transporter Type 2 Inhibitors and Heart Failure: A Review of the State of the Art. Iberoam J Med. 2023;4(3):169-173. doi: http://dx.doi.org/10.53986/ibjm.2023.0009. [link](https://www.iberoamjmed.com/article/doi/10.53986/ibjm.2023.0009)
  
 25- 2023. Anillo L, Florez-Lozano K, Tuesca R, Acosta T, Rodríguez S, Aschner P, Diaz Y, Nieto J, **Florez-Garcia VA**, Barengo N. The association between sociodemographic and clinical factors and health-related quality of lLife (HRQOL) according to Glycemic Status: A cross-sectional study in a population at risk of diabetes in two Latin American cities. Quality of Life Research [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10328894/)
