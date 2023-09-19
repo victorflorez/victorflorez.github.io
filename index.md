@@ -12,7 +12,7 @@ title: ""
 
   
 ## About:
-I currently hold the position of Assistant Professor at the Department of Public Health at Universidad del Norte in Barranquilla, Colombia. Concurrently, I am pursuing my Ph.D. in Environmental Health Sciences with a specialization in Environmental Epidemiology at the University of Wisconsin, Milwaukee, under the guidance of Dr. Amy Kalkbrenner. My doctoral research focuses on investigating the impact of environmental exposures on neurodevelopment in children.My professional journey has provided me with a diverse background in epidemiology, encompassing both social and clinical aspects.
+I currently hold the position of Assistant Professor at the Department of Public Health at Universidad del Norte in Barranquilla, Colombia. Concurrently, I am pursuing my Ph.D. in Environmental Health Sciences with a specialization in Environmental Epidemiology at the University of Wisconsin, Milwaukee, under the guidance of Dr. Amy Kalkbrenner. My doctoral research focuses on investigating the impact of environmental exposures on neurodevelopment in children. My professional journey has provided me with a diverse background in epidemiology, encompassing environmental, social, and clinical aspects.
 
 I highly appreciate diversity, inclusion, and a sense of belonging. My dedication extends to fostering these principles not only in research, academia, and clinical practice, but also in other spheres.
 
