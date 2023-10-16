@@ -12,7 +12,7 @@ show_social: true        # show site description and social links in the footer
 show_excerpts: false        # how article excerpts the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: true        # show a sidebar instead of the usual header
-minimal: true             # use a dark header
+minimal: false             # use a dark header
 
 
 # Menu
