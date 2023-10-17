@@ -23,7 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Details", file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Home, icon: Home, url: "https://victorflorez.github.io/"}
+  - {title: Home, icon: House, url: "https://victorflorez.github.io/"}
   - {title: Github, icon: github, url: "https://github.com/victorflorez"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/vitorflorez"}
   - {title: Google, icon: google, url: "https://scholar.google.es/citations?user=8kN367IAAAAJ&hl=es"}
