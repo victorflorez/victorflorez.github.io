@@ -6,7 +6,7 @@ categories:
   -website
 ---
 
-![IMG_4029](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/5a21ba49-f867-4d04-a85a-e17fef666e68)
+![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/fce0873b-e686-48cf-a337-da772af6152e)
 
 
 ### Ph.D. (c) Environmental Health Sciences, Environmental Epidemiology Track .  
