@@ -33,6 +33,7 @@ My interests lie in the intersection between environmental exposures and childre
 
    **Contact Information:**
    
+   
    Joseph J. Zilber, College of Public Health
    
    University of Wisconsin - Milwaukee
@@ -44,4 +45,7 @@ My interests lie in the intersection between environmental exposures and childre
    Milwaukee, Wisconsin. USA
    
    Email: vaflorez@uwm.edu
+   
+   <img width="442" alt="image" src="https://github.com/victorflorez/victorflorez.github.io/assets/100101223/67a72952-e351-41ac-b0d8-aebfe0c7fcf8">
+
    
