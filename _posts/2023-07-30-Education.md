@@ -16,11 +16,16 @@ Joseph J. Zilber, College of Public Health
 
 University of Wisconsin, Milwaukee. USA [link](https://www.uwm.edu)
 
-Doctoral Committee: 
+*Doctoral Committee:* 
+
 Amy Kalkbrenner, MPH. PhD (chair) -University of Wisconsin, Milwaukee
+
 Michael Laiosa, PhD -University of Wisconsin, Milwaukee
+
 Kurt Svoboda, PhD -University of Wisconsin, Milwaukee
+
 Alexander Keil, PhD -National Cancer Institute
+
 Robert O. Wright, MD, MPH -Icahn School of Medicine at Mount Sinai - New York City
 
 
