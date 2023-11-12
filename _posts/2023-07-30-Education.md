@@ -24,9 +24,9 @@ Michael Laiosa, PhD -University of Wisconsin, Milwaukee
 
 Kurt Svoboda, PhD -University of Wisconsin, Milwaukee
 
-Alexander Keil, PhD -National Cancer Institute
+Alexander Keil, PhD -US National Cancer Institute (Occupational and Environmental Epidemiology Branch, NIH/NCI/DCEG/TDRP)
 
-Robert O. Wright, MD, MPH -Icahn School of Medicine at Mount Sinai - New York City
+Robert O. Wright, MD. MPH -Icahn School of Medicine at Mount Sinai - New York City
 
 
 ## M.Sc Epidemiology
