@@ -18,8 +18,7 @@ I highly appreciate diversity, inclusion, and a sense of belonging. My dedicatio
 
 
 ## Research Areas:
-My interests lie in the intersection between environmental exposures and health outcomes in migrant and Latinx community. Also, my reserach focus on a) children's cognitive development outcomes b) impact of environmental exposures on cancer . In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. Currently, I´m studying the effect of heavy metal mixtures on children's cognitive abilities and how policy actions can be actionable from hypothetical interventions. 
-
+My interests lie in the intersection between environmental exposures and health outcomes in migrant and Latinx communities. Also, my reserach focus on a) children’s cognitive development outcomes both in utero and postnatal exposures and b) the impact of environmental exposures on cancer . In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. Currently, I´m studying the effect of metal mixtures on children’s cognitive abilities and how policy actions can be actionable from hypothetical interventions.
 
 
 
