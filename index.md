@@ -20,6 +20,8 @@ I highly appreciate diversity, inclusion, and a sense of belonging. My dedicatio
 ## Research Areas:
 My interests lie in the intersection between environmental exposures and health outcomes, with focus on migrant and Latinx communities:
 
+ -Pediatric environmental health 
+
  -Migration and health
  
  -Exposure assessment
@@ -27,8 +29,6 @@ My interests lie in the intersection between environmental exposures and health 
  -Impact of climate change on health
  
  -Global/international health
- 
- -Children’s Health
  
  -Research Translation
  
