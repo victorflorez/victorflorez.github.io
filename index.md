@@ -39,7 +39,7 @@ In my research, I´m applying the latest generation of quantitative methods in e
 
 ## Why public health? 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L0IlJYzCD5k" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L0IlJYzCD5k/" frameborder="0" allowfullscreen></iframe>
 
 
 
