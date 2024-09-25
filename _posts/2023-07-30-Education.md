@@ -9,8 +9,8 @@ categories:
 ![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/fce0873b-e686-48cf-a337-da772af6152e)
 
 
-### Ph.D. (c) Environmental Health Sciences, Environmental Epidemiology Track.  
-2020-  2024  (Expected)
+### Ph.D. Environmental Health Sciences, Environmental Epidemiology Track.  
+2020-  2024
 
 Joseph J. Zilber, College of Public Health
 
