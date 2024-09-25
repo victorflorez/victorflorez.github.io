@@ -53,6 +53,6 @@ School of Public Health
 
 University of Illinois Chicago
 
-1603 W. Taylor St. | 989 SPHPI, MC 923 | Chicago, IL 60612
+1603 W. Taylor St. 989 SPHPI, MC 923. Chicago, IL 60612
 
 E: victor8@uic.edu 
