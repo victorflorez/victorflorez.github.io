@@ -37,11 +37,6 @@ My interests lie in the intersection between environmental exposures and health 
 In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. Currently, I´m studying the effect of metal mixtures on children’s cognitive abilities and how policy actions can be actionable from hypothetical interventions.
 
 
-## Why public health? 
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=L0IlJYzCD5k/" frameborder="0" allowfullscreen></iframe>
-
-
 
 
 
