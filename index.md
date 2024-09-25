@@ -12,7 +12,7 @@ title: ""
 
   
 ## About:
-I currently hold the position of Assistant Professor at the Department of Public Health at Universidad del Norte in Barranquilla, Colombia. Concurrently, I am pursuing my Ph.D. in Environmental Health Sciences with a specialization in Environmental Epidemiology at the University of Wisconsin, Milwaukee, under the guidance of Dr. Amy Kalkbrenner. My doctoral research focuses on investigating the impact of environmental exposures on neurodevelopment in children. My professional journey has provided me with a diverse background in epidemiology, encompassing environmental, social, and clinical aspects.
+I currently hold the position of Bridge to Faculty (B2F) Postdoctoral Research Associate at the Division of Epidemiology and Biostatistics at the University of Illinois Chicago. Concurrently. My current research focuses on investigating the impact of environmental exposures on children's neurodevelopment. My professional journey has provided me with a diverse background in epidemiology, encompassing environmental, social, and clinical aspects.
 
 I highly appreciate diversity, inclusion, and a sense of belonging. My dedication extends to fostering these principles not only in research, academia, and clinical practice, but also in other spheres.
 
@@ -47,19 +47,12 @@ In my research, I´m applying the latest generation of quantitative methods in e
 
    **Contact Information:**
    
-   
-   Joseph J. Zilber, College of Public Health
-   
-   University of Wisconsin - Milwaukee
-   
-   Kenwood Interdisciplinary Research Complex
-   
-   3531 N Meryland Ave. 5th-floor, suite 5077
-   
-   Milwaukee, Wisconsin. USA
-   
-   Email: vaflorez@uwm.edu
-   
-   <img width="442" alt="image" src="https://github.com/victorflorez/victorflorez.github.io/assets/100101223/67a72952-e351-41ac-b0d8-aebfe0c7fcf8">
+Division of Epidemiology & Biostatistics
 
-   
+School of Public Health
+
+University of Illinois Chicago
+
+1603 W. Taylor St. | 989 SPHPI, MC 923 | Chicago, IL 60612
+
+E: victor8@uic.edu 
