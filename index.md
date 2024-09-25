@@ -56,3 +56,8 @@ University of Illinois Chicago
 1603 W. Taylor St. 989 SPHPI, MC 923. Chicago, IL 60612
 
 E: victor8@uic.edu 
+
+
+      
+![image](https://github.com/user-attachments/assets/c735ce0d-2c68-4995-a936-955c88a927d0)
+
