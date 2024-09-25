@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Home, icon: home, url: "https://victorflorez.github.io/"}
   - {title: "Cv", icon: file, file: "victor.pdf"}
   - {title: "SPH-UIC", icon: list, url: "https://publichealth.uic.edu/"}
-  - {title: "Details", icon: eye, file: "blog.md"}
+  - {title: "Career path", icon: eye, file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/victorflorez"}
