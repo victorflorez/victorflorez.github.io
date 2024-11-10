@@ -7,8 +7,6 @@ categories:
 ---
 
 
-![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/9d5e6db3-1127-405b-95d6-7c04c88a3452)
-
 
 **Details in Spanish.** *Based on CvLac (Curriculum Vitae para Latinoamerica y el Caribe)* [Link](https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000000854)
 
