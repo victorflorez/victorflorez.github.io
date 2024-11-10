@@ -8,6 +8,12 @@ categories: media
 
 ## Peer Reviewed Articles
 
+30- 2024. Arenas-Contreras, E., Ariza-Teheran, L., Borja-Egher, L., Diazgranados-Gonzalez, O., Mora-Cartusciello, O., Thowinsson-Merizalde, L., Cure Aragón, K., Acosta-Vergara, T, Guevara-Romero, E., & **Florez-Garcia, V.** (2024). Síntomas de ansiedad y depresión en trabajadores de la salud durante la pandemia por COVID-19 en un centro de salud en Barranquilla, Colombia. Psiquiatría Biológica, 100505. https://doi.org/10.1016/j.psiq.2024.100505 [link](https://www.sciencedirect.com/science/article/abs/pii/S1134593424000654)
+
+29- 2024. Almanza-Meza EJ, Figueroa-Alvarez F, Cruz-González A, Almanza-Meza EA, **Florez-García V.** Azul de metileno como tratamiento del shock refractario: Un análisis de estudios analíticos. Revista Chilena de Anestesia. 2024;53(5):501–8. https://doi.org/10.25237/revchilanestv53n5-10 [link](https://revistachilenadeanestesia.cl/revchilanestv53n5-10/)
+
+28- 2024. Yenifer Diaz Montes, Tania Acosta Vergara, Rafael Tuesca Molina, Gillian Martinez Guerrero, Luis A. Anillo Arrieta, Pablo Aschnerf, Jorge Acosta-Reyes, **Victor Florez-Garcia,** Edgar Navarro Lechuga, Noel C. Barengo. The association between sociodemographic characteristics, clinical indicators and body mass index in a population at risk of type 2 diabetes: A cross-sectional study in two Colombian cities. Primary Care Diabetes, 2024(1-8) https://doi.org/10.1016/j.pcd.2024.06.001  [link](https://www.primary-care-diabetes.com/article/S1751-9918(24)00114-1/fulltext)
+
 27- 2023. Hawkins MM, **Florez-Garcia V**, Guevara-Romero E, Santacruz-Salas E, Ruiz A. Social Cognitive Theory-Based Interventions to Address Interpersonal Violence Among Hispanic Youth—A Systematic Review. Hispanic Health Care International. 2023;0(0). doi:10.1177/15404153231187381 [link](https://journals.sagepub.com/doi/10.1177/15404153231187381?icid=int.sj-abstract.citing-articles.2)
 
 26-2023 Meza-González YA, Alfosno-Arrieta N, Salas-Solorzano S, **Florez-García V.** Sodium-Glucose Co-Transporter Type 2 Inhibitors and Heart Failure: A Review of the State of the Art. Iberoam J Med. 2023;4(3):169-173. doi: http://dx.doi.org/10.53986/ibjm.2023.0009. [link](https://www.iberoamjmed.com/article/doi/10.53986/ibjm.2023.0009)
