@@ -6,9 +6,11 @@ categories:
   -github
   -website
 ---
+## University of Illinois Chicago
+2024- **Current**:  B2F Postdoctoral Research Associate, Division of Epidemiology & Biostatistics, School of Public Health. Chicago, IL- USA [link](https://https://publichealth.uic.edu/)
 
 ## Universidad del Norte
-2017- **Current**:  Assistant Professor, Department of Public Health, Universidad del Norte- Barranquilla, Col [link](https://www.uninorte.edu.co/web/departamento-de-salud-publica/profesores)
+2017- **Current**: Department of Public Health, Universidad del Norte- Barranquilla, Col [link](https://www.uninorte.edu.co/web/departamento-de-salud-publica/profesores)
 
 ## Wisconsin Department of Health Services.
 2023-2023 :  Research Analyst (Internship). The Bureau of Environmental and Occupational Health. The Environmental Public Health Tracking Program- Madison, WI -USA [link](https://www.dhs.wisconsin.gov/epht/index.htm)
