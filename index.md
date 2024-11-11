@@ -14,11 +14,11 @@ title: ""
 ## About:
 I currently hold the position of Bridge to Faculty (B2F) Postdoctoral Research Associate at the Division of Epidemiology and Biostatistics at the University of Illinois Chicago. My current research focuses on investigating the impact of environmental exposures on children's neurodevelopment. My professional journey has provided me with a diverse background in epidemiology, encompassing environmental, social, and clinical aspects.
 
-I highly appreciate diversity, inclusion, and a sense of belonging. My dedication extends to fostering these principles not only in research, academia, and clinical practice, but also in other spheres.
+I highly appreciate diversity, inclusion, and a sense of belonging. My dedication extends to fostering these principles not only in research, academia, and clinical practice but also in other spheres.
 
 
 ## Research Areas:
-My interests lie in the intersection between environmental exposures and health outcomes, with focus on migrant and Latinx communities:
+My interests lie in the intersection between environmental exposures and health outcomes, with a focus on migrant and Latin communities:
 
  -Pediatric environmental health 
 
