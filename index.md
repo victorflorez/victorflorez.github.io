@@ -18,7 +18,7 @@ I highly appreciate diversity, inclusion, and a sense of belonging. My dedicatio
 
 
 ## Research Areas:
-My interests lie in the intersection between environmental exposures and health outcomes, with a focus on Latin communities:
+My interests lie in the intersection between environmental exposures and health outcomes:
 
  -Pediatric environmental health 
 
