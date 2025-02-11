@@ -22,11 +22,7 @@ My interests lie in the intersection between environmental exposures and health 
 
  -Pediatric environmental health 
 
- -Migration and health
- 
  -Exposure assessment
- 
- -Impact of climate change on health
  
  -Global/international health
  
