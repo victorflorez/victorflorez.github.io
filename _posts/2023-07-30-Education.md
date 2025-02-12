@@ -10,7 +10,6 @@ categories:
 
 
 ### Ph.D. Environmental Health Sciences, Environmental Epidemiology Track.  
-2020-  2024
 
 Joseph J. Zilber, College of Public Health
 
