@@ -20,7 +20,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: Home, icon: home, url: "https://victorflorez.github.io/"}
   - {title: "CvLAC", icon: file, url: "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000000854"}
-  - {title: "SPH-UIC", icon: list, url: "https://publichealth.uic.edu/"}
+  - {title: "EPI&BIO UIC", icon: list, url: "https://publichealth.uic.edu/academics/divisions/epidemiology-biostatistics/"}
   - {title: "Career path", icon: eye, file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
