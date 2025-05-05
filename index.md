@@ -20,17 +20,11 @@ I highly appreciate diversity, inclusion, and a sense of belonging. My dedicatio
 ## Research Areas:
 My interests lie in the intersection between environmental exposures and health outcomes:
 
- -Pediatric environmental health 
+-Environmental epidemiology
+-Molecular epidemiology
+-Maternal-child health
 
- -Exposure assessment
- 
- -Global/international health
- 
- -Research Translation
- 
- -Community-engaged intervention research
-
-In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. Currently, I´m studying the effect of metal mixtures on children’s cognitive abilities and how policy actions can be actionable from hypothetical interventions.
+In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. 
 
 
 
