@@ -21,7 +21,9 @@ I highly appreciate diversity, inclusion, and a sense of belonging. My dedicatio
 My interests lie in the intersection between environmental exposures and health outcomes:
 
 -Environmental epidemiology
+
 -Molecular epidemiology
+
 -Maternal-child health
 
 In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. 
