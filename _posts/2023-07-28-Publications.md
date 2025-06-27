@@ -8,6 +8,9 @@ categories: media
 
 ## Peer Reviewed Articles
 
+32- 2025. Évora-Lebrero S, Bustos-Sepúlveda M, Bustos-Sepúlveda L, Segura-Fragoso A, **Florez-Garcia V**, Gondwe KW, Santacruz-Salas E. The Role of Education in Emotional Intelligence to Perceive, Understand and Regulate Emotions: A Quasi-Experimental Study. Healthcare. 2025; 13(13):1542. https://doi.org/10.3390/healthcare13131542 [link](https://www.mdpi.com/2227-9032/13/13/1542)
+
+
 31- 2025. **Florez-Garcia, V.,** Torres-Saballeth, J., Tuesca-Molina, R. et al. Water sources and educational attainment in Colombian adults: evidence from the national nutritional survey. BMC Public Health 25, 1385 (2025). https://doi.org/10.1186/s12889-025-22577-8 [link](https://link.springer.com/article/10.1186/s12889-025-22577-8?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250412&utm_content=10.1186/s12889-025-22577-8#Sec11)
 
 30- 2024. Arenas-Contreras, E., Ariza-Teheran, L., Borja-Egher, L., Diazgranados-Gonzalez, O., Mora-Cartusciello, O., Thowinsson-Merizalde, L., Cure Aragón, K., Acosta-Vergara, T, Guevara-Romero, E., & **Florez-Garcia, V.** (2024). Síntomas de ansiedad y depresión en trabajadores de la salud durante la pandemia por COVID-19 en un centro de salud en Barranquilla, Colombia. Psiquiatría Biológica, 100505. https://doi.org/10.1016/j.psiq.2024.100505 [link](https://www.sciencedirect.com/science/article/abs/pii/S1134593424000654)
