@@ -8,7 +8,7 @@ categories: media
 
 ## Peer Reviewed Articles
 
-33- 2025. Arana-Baquero M, Bernal-Ceballos V, Castro-Lozano I, la Ossa SJ, Sefair-Ceballos R, Acosta-Vergara T, **Florez-Garcia V**, Gutierrez-Polo, A. Factores de riesgo de ansiedad y depresión en adolescentes embarazadas atendidas en un programa de control prenatal en Atlántico, Colombia. Psiquiatría Biológica 2025:100735. https://doi.org/10.1016/j.psiq.2025.100735.[link][https://www.sciencedirect.com/science/article/abs/pii/S1134593425000375?via%3Dihub#preview-section-references)
+33- 2025. Arana-Baquero M, Bernal-Ceballos V, Castro-Lozano I, la Ossa SJ, Sefair-Ceballos R, Acosta-Vergara T, **Florez-Garcia V**, Gutierrez-Polo, A. Factores de riesgo de ansiedad y depresión en adolescentes embarazadas atendidas en un programa de control prenatal en Atlántico, Colombia. Psiquiatría Biológica 2025:100735. https://doi.org/10.1016/j.psiq.2025.100735.[link](https://www.sciencedirect.com/science/article/abs/pii/S1134593425000375?via%3Dihub#preview-section-references)
 
 32- 2025. Évora-Lebrero S, Bustos-Sepúlveda M, Bustos-Sepúlveda L, Segura-Fragoso A, **Florez-Garcia V**, Gondwe KW, Santacruz-Salas E. The Role of Education in Emotional Intelligence to Perceive, Understand and Regulate Emotions: A Quasi-Experimental Study. Healthcare. 2025; 13(13):1542. https://doi.org/10.3390/healthcare13131542 [link](https://www.mdpi.com/2227-9032/13/13/1542)
 
