@@ -8,9 +8,9 @@ categories: media
 
 ## Peer Reviewed Articles
 
-35- Martínez-Merlo, J. A. ., **Flórez-García, V.** ., & Tuesca-Molina, R. de J. (2025). Declaración de los líderes del G20 en la Cumbre de Río de Janeiro 2024: alcances e impacto para Colombia. Revista Científica Salud Uninorte, 41(3), 721–726. https://doi.org/10.14482/sun.41.03.010.254 [link](https://rcientificas.uninorte.edu.co/index.php/salud/article/view/17351)
+35- 2025. Martínez-Merlo, J. A. ., **Flórez-García, V.** ., & Tuesca-Molina, R. de J. (2025). Declaración de los líderes del G20 en la Cumbre de Río de Janeiro 2024: alcances e impacto para Colombia. Revista Científica Salud Uninorte, 41(3), 721–726. https://doi.org/10.14482/sun.41.03.010.254 [link](https://rcientificas.uninorte.edu.co/index.php/salud/article/view/17351)
 
-34-2025. **Florez-Garcia V**, Wright R, Keil A, Tellez-Rojo M, Martinez-Medina S, Estrada-Gutierrez G, Kalkbrenner A. Essential and Non-Essential Metals in Children’s Intellectual Functioning: A Multi-Media Biomarker Approach from A Mexico City Birth Cohort. Environ Res. 2025;122323:1–15. https://doi.org/https://doi.org/10.1016/j.envres.2025.122323. [link](https://www.sciencedirect.com/science/article/pii/S0013935125015749)
+34- 2025. **Florez-Garcia V**, Wright R, Keil A, Tellez-Rojo M, Martinez-Medina S, Estrada-Gutierrez G, Kalkbrenner A. Essential and Non-Essential Metals in Children’s Intellectual Functioning: A Multi-Media Biomarker Approach from A Mexico City Birth Cohort. Environ Res. 2025;122323:1–15. https://doi.org/https://doi.org/10.1016/j.envres.2025.122323. [link](https://www.sciencedirect.com/science/article/pii/S0013935125015749)
 
 33- 2025. Arana-Baquero M, Bernal-Ceballos V, Castro-Lozano I, la Ossa SJ, Sefair-Ceballos R, Acosta-Vergara T, **Florez-Garcia V**, Gutierrez-Polo, A. Factores de riesgo de ansiedad y depresión en adolescentes embarazadas atendidas en un programa de control prenatal en Atlántico, Colombia. Psiquiatría Biológica 2025:100735. https://doi.org/10.1016/j.psiq.2025.100735. [link](https://www.sciencedirect.com/science/article/abs/pii/S1134593425000375?via%3Dihub#preview-section-references)
 
