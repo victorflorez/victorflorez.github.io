@@ -8,6 +8,8 @@ categories: media
 
 ## Peer Reviewed Articles
 
+36- 2025 Guevara-Romero, E.; **Florez-Garcia, V.**; Ogungbe, F.; Harley, A.; Yan, A. The Prevalence and Correlates of Vitamin D Deficiency and Overweight/Obesity of School-Age Children in Colombia–Findings on the Double Burden of Malnutrition from Nationally-Representative Data. Obesities 2025, 5, 76. https://doi.org/10.3390/obesities5040076
+
 35- 2025. Martínez-Merlo, J. A. ., **Flórez-García, V.** ., & Tuesca-Molina, R. de J. (2025). Declaración de los líderes del G20 en la Cumbre de Río de Janeiro 2024: alcances e impacto para Colombia. Revista Científica Salud Uninorte, 41(3), 721–726. https://doi.org/10.14482/sun.41.03.010.254 [link](https://rcientificas.uninorte.edu.co/index.php/salud/article/view/17351)
 
 34- 2025. **Florez-Garcia V**, Wright R, Keil A, Tellez-Rojo M, Martinez-Medina S, Estrada-Gutierrez G, Kalkbrenner A. Essential and Non-Essential Metals in Children’s Intellectual Functioning: A Multi-Media Biomarker Approach from A Mexico City Birth Cohort. Environ Res. 2025;122323:1–15. https://doi.org/https://doi.org/10.1016/j.envres.2025.122323. [link](https://www.sciencedirect.com/science/article/pii/S0013935125015749)
