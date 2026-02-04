@@ -8,7 +8,7 @@ categories: media
 
 ## Peer Reviewed Articles
 
-37- Anillo Arrieta LA, Diaz Montes Y, Espitia De LaHoz JJ, Acosta-Vergara T, Tuesca Molina R, **Florez-Garcia V**, Acosta-Reyes J, Rod JE,Aschner P and Barengo NC (2026)Comparative evaluation of ASCVD, SCORE-2,and HEARTS risk scores in Colombian adultsat risk of type 2 diabetes: stratification,concordance, and associated factors.Front. Cardiovasc. Med. 12:1734611.doi: 10.3389/fcvm.2025.1734611
+37- Anillo Arrieta LA, Diaz Montes Y, Espitia De LaHoz JJ, Acosta-Vergara T, Tuesca Molina R, **Florez-Garcia V**, Acosta-Reyes J, Rod JE,Aschner P and Barengo NC (2026)Comparative evaluation of ASCVD, SCORE-2,and HEARTS risk scores in Colombian adultsat risk of type 2 diabetes: stratification,concordance, and associated factors.Front. Cardiovasc. Med. 12:1734611.doi: 10.3389/fcvm.2025.1734611 [link](https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1734611/full)
 
 36- 2025 Guevara-Romero, E.; **Florez-Garcia, V.**; Ogungbe, F.; Harley, A.; Yan, A. The Prevalence and Correlates of Vitamin D Deficiency and Overweight/Obesity of School-Age Children in Colombia–Findings on the Double Burden of Malnutrition from Nationally-Representative Data. Obesities 2025, 5, 76. https://doi.org/10.3390/obesities5040076
 
