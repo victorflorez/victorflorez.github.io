@@ -7,7 +7,7 @@ categories:
   -website
 ---
 ## University of Illinois Chicago
-2024- **Current**:  B2F Postdoctoral Research Associate, Division of Epidemiology & Biostatistics, School of Public Health. Chicago, IL- USA [link](https://https://publichealth.uic.edu/)
+2024- **Current**:  B2F Postdoctoral Research Associate, Division of Epidemiology & Biostatistics, School of Public Health. Chicago, IL- USA [link](https://uicollaboratory.uic.edu/9310-victor-florezgarcia)
 
 ## Universidad del Norte
 2017- 2024: Department of Public Health, Universidad del Norte- Barranquilla, Col [link](https://www.uninorte.edu.co/web/departamento-de-salud-publica/profesores)
