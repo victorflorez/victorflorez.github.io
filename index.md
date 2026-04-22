@@ -8,6 +8,7 @@ title: ""
  
  ![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/409ac24f-844a-4d70-981e-3db3f82789d9)
 
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/a7ff43f3-e7f6-4e8f-8894-0c3a45864e94" />
 
 
   
@@ -45,4 +46,5 @@ E: victor8@uic.edu
 
       
 ![image](https://github.com/user-attachments/assets/c735ce0d-2c68-4995-a936-955c88a927d0)
+
 
