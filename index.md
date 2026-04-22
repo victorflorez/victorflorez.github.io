@@ -8,7 +8,8 @@ title: ""
  
  ![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/409ac24f-844a-4d70-981e-3db3f82789d9)
 
-<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/a7ff43f3-e7f6-4e8f-8894-0c3a45864e94" />
+<img width="500" height="667" alt="image" src="https://github.com/user-attachments/assets/76b23129-4562-4abf-ae0a-5985cc040323" />
+
 
 
   
@@ -43,7 +44,8 @@ University of Illinois Chicago
 
 E: victor8@uic.edu 
 
-<img width="1245" height="188" alt="image" src="https://github.com/user-attachments/assets/998424ea-79e9-4b80-91bf-b41bf2c5861c" />
+<img width="1090" height="396" alt="image" src="https://github.com/user-attachments/assets/ef46e89d-2518-49c1-be07-8a81333ef9c3" />
+
 
       
 ![image](https://github.com/user-attachments/assets/c735ce0d-2c68-4995-a936-955c88a927d0)
