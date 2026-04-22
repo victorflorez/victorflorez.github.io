@@ -8,7 +8,8 @@ title: ""
  
  ![image](https://github.com/victorflorez/victorflorez.github.io/assets/100101223/409ac24f-844a-4d70-981e-3db3f82789d9)
 
-<img width="500" height="667" alt="image" src="https://github.com/user-attachments/assets/76b23129-4562-4abf-ae0a-5985cc040323" />
+<img width="250" height="333" alt="image" src="https://github.com/user-attachments/assets/8a28edfc-e201-49d7-ba1c-143546ea16bb" />
+
 
 
 
