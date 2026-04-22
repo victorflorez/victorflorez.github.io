@@ -43,6 +43,7 @@ University of Illinois Chicago
 
 E: victor8@uic.edu 
 
+<img width="1245" height="188" alt="image" src="https://github.com/user-attachments/assets/998424ea-79e9-4b80-91bf-b41bf2c5861c" />
 
       
 ![image](https://github.com/user-attachments/assets/c735ce0d-2c68-4995-a936-955c88a927d0)
