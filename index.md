@@ -18,16 +18,15 @@ His work integrates exposure biomarkers across multiple biological matrices with
 His current research agenda aims to further investigate the biological mechanisms underlying metal neurotoxicity, including the role of nutritional factors and individual susceptibility, as well as to develop strategies to reduce its impact on child development.
 
 ## Research Areas:
-My interests lie in the intersection between environmental exposures and health outcomes:
+His interests lie in the intersection between environmental exposures and health outcomes:
 
 -Core areas: Environmental epidemiology; Metal exposures (lead, cadmium, etc.) and health; Child neurodevelopment and early-life exposures (prenatal and postnatal)
 
 -Methods and Analytical Approaches: Causal inference in epidemiology (target trial emulation, g-computation); Environmental mixtures analysis (WQS, PCA, multi-exposure approaches), Exposure biomarkers (multi-media biomarkers); Longitudinal cohorts and complex data analysis.
 
--Complementary Lines (Prior Trajectory): Cardiometabolic epidemiology; Population health in Latin America; Migration and health
-Health disparities
+-Complementary Lines (Prior Trajectory): Cardiometabolic epidemiology; Population health in Latin America; Migration and health; Health disparities
 
-In my research, I´m applying the latest generation of quantitative methods in epidemiology and new causal inference methods. 
+In his research, Dr. Florez applies the latest generation of quantitative methods in epidemiology and new causal inference methods. 
 
 
 
