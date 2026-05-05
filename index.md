@@ -18,8 +18,6 @@ His interests lie in the intersection between environmental exposures and health
 
 -**Core areas:** Environmental epidemiology; Metal exposures (lead, cadmium, etc.) and health; Child neurodevelopment and early-life exposures (prenatal and postnatal)
 
--**Methods and Analytical Approaches:** Causal inference in epidemiology (target trial emulation, g-computation); Environmental mixtures analysis (WQS, PCA, multi-exposure approaches), Exposure biomarkers (multi-media biomarkers); Longitudinal cohorts and complex data analysis.
-
 -**Complementary Lines (Prior Trajectory):** Cardiometabolic epidemiology; Population health in Latin America; Migration and health; Health disparities
 
 In his research, Dr. Florez applies the latest generation of quantitative methods in epidemiology and new causal inference methods. 
