@@ -31,7 +31,7 @@ In his research, Dr. Florez applies the latest generation of quantitative method
 
 
 
-   ##Contact Information:
+   ## Contact Information:
    
 Division of Epidemiology & Biostatistics
 
