@@ -8,6 +8,8 @@ categories: media
 
 ## Peer Reviewed Articles
 
+39-2026 Rada-Tapias G, Ruiz D, Trejos A, Tuesca R, Acosta T, **Florez-Garcia V**. Relaciones Intrafamiliares y Síntomas de Depresión en Estudiantes de una Universidad del Distrito de Barranquilla, Colombia. Psiquiatría Biológica. 2026 May;100930. doi:10.1016/j.psiq.2026.100930  [link](https://www.sciencedirect.com/science/article/abs/pii/S1134593426000436?via%3Dihub)
+
 38-2026 **Florez-Garcia V**, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. Exposure to lead on children’s intellectual functioning: A target trial with multimedia biomarkers in Mexico City. Chemosphere. 2026 Jun;402:144932. doi:10.1016/j.chemosphere.2026.144932 [link](https://www.sciencedirect.com/science/article/pii/S0045653526001098)
 
 37- 2026. Anillo Arrieta LA, Diaz Montes Y, Espitia De LaHoz JJ, Acosta-Vergara T, Tuesca Molina R, **Florez-Garcia V**, Acosta-Reyes J, Rod JE,Aschner P and Barengo NC (2026)Comparative evaluation of ASCVD, SCORE-2,and HEARTS risk scores in Colombian adults at risk of type 2 diabetes: stratification,concordance, and associated factors.Front. Cardiovasc. Med. 12:1734611.doi: 10.3389/fcvm.2025.1734611 [link](https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1734611/full)
