@@ -8,6 +8,8 @@ categories: media
 
 ## Peer Reviewed Articles
 
+40- 2026. **Florez-Garcia V**, Guevara-Romero E, Rod JE, Santacruz-Salas E, Noronha N, Talayero-Schettino M, et al. Prenatal lead and intelligence quotient measured in children and adolescents: A systematic review and meta-analysis. Ecotoxicol Environ Saf 2026; 323:120710. https://doi.org/10.1016/J.ECOENV.2026.120710. [link](https://www.sciencedirect.com/science/article/pii/S0147651326010407)
+
 39-2026 Rada-Tapias G, Ruiz D, Trejos A, Tuesca R, Acosta T, **Florez-Garcia V**. Relaciones Intrafamiliares y Síntomas de Depresión en Estudiantes de una Universidad del Distrito de Barranquilla, Colombia. Psiquiatría Biológica. 2026 May;100930. doi:10.1016/j.psiq.2026.100930  [link](https://www.sciencedirect.com/science/article/abs/pii/S1134593426000436?via%3Dihub)
 
 38-2026 **Florez-Garcia V**, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. Exposure to lead on children’s intellectual functioning: A target trial with multimedia biomarkers in Mexico City. Chemosphere. 2026 Jun;402:144932. doi:10.1016/j.chemosphere.2026.144932 [link](https://www.sciencedirect.com/science/article/pii/S0045653526001098)
