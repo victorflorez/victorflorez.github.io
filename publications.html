@@ -13,24 +13,51 @@ permalink: /publications/
     :root{--ink:#18231f;--muted:#68736e;--paper:#f5f4ef;--line:#d8ddd9;--accent:#315f50;--warm:#b87349;--max:1120px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
     .topbar{border-bottom:1px solid var(--line);background:rgba(245,244,239,.96);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.mark{width:38px;height:38px;border:1px solid var(--ink);display:grid;place-items:center;font-weight:800;font-size:.78rem}.brand strong{font-family:Georgia,"Times New Roman",serif;font-size:1.02rem}.navlinks{display:flex;gap:24px;font-size:.83rem;font-weight:700}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--accent)}
-    .hero{padding:86px 0 52px;border-bottom:1px solid var(--line)}.eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--accent)}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.025em}h1{font-size:clamp(3.3rem,7vw,6.4rem);line-height:.95;margin:18px 0 24px}.intro{max-width:760px;font-size:1.12rem;color:#4b5752}.count{display:inline-block;margin-top:24px;padding:9px 12px;border:1px solid var(--line);font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .hero{padding:86px 0 52px;border-bottom:1px solid var(--line)}.eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--accent)}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.025em}h1{font-size:clamp(3.3rem,7vw,6.4rem);line-height:.95;margin:18px 0 24px}.intro{max-width:760px;font-size:1.12rem;color:#4b5752}
     .featured{padding:58px 0;background:var(--ink);color:#eef3f0}.featured-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:64px;align-items:end}.featured .eyebrow{color:#9bc0b1}.featured h2{font-size:clamp(2.4rem,4.5vw,4.5rem);line-height:1.03;margin:12px 0 18px}.featured p{color:#c7d0cc;max-width:720px}.journal{font-size:.76rem;text-transform:uppercase;letter-spacing:.13em;color:#aebbb5;margin-top:14px}.btn{display:inline-flex;margin-top:20px;padding:11px 15px;border:1px solid #dbe4df;color:#fff;text-decoration:none;font-size:.82rem;font-weight:800}.citation{border-top:1px solid #53605a;margin-top:22px;padding-top:18px;color:#aebbb5;font-size:.84rem}
-    .pub-section{padding:64px 0 90px}.pub-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:24px}.pub-head h2{font-size:clamp(2rem,4vw,3.5rem);margin:0}.pub-list>img,.pub-list>h2{display:none}.pub-list p{margin:0;padding:22px 0;border-top:1px solid var(--line);font-size:.98rem;color:#39443f}.pub-list p:first-of-type{border-top:1px solid var(--ink)}.pub-list strong{color:var(--ink)}.pub-list a{color:var(--accent);font-weight:700;text-underline-offset:3px}.pub-list a:hover{color:var(--warm)}
+    .pub-section{padding:64px 0 90px}.pub-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:28px}.pub-head h2{font-size:clamp(2rem,4vw,3.5rem);margin:0}.raw-publications{display:none}.year-group{border-top:1px solid var(--ink)}.year-group+ .year-group{border-top:1px solid var(--line)}.year-group summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:22px 0;font-family:Georgia,"Times New Roman",serif;font-size:1.75rem}.year-group summary::-webkit-details-marker{display:none}.year-group summary::after{content:'+';font-family:Inter,sans-serif;font-size:1.35rem;color:var(--accent);font-weight:500}.year-group[open] summary::after{content:'–'}.year-items{padding:0 0 16px}.year-items p{margin:0;padding:18px 0;border-top:1px solid var(--line);font-size:.98rem;color:#39443f}.year-items strong{color:var(--ink)}.year-items a{color:var(--accent);font-weight:700;text-underline-offset:3px}.year-items a:hover{color:var(--warm)}
     .back{display:inline-flex;margin-bottom:30px;text-decoration:none;border-bottom:1px solid var(--ink);font-size:.83rem;font-weight:800;padding-bottom:3px}
     footer{padding:40px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:25px}
-    @media(max-width:760px){.navlinks a:not(:first-child){display:none}.hero{padding-top:58px}.wrap{width:min(var(--max),calc(100% - 28px))}.featured-grid{grid-template-columns:1fr;gap:25px}.pub-head,.foot{flex-direction:column;align-items:flex-start}}
+    @media(max-width:760px){.navlinks a:not(:first-child){display:none}.hero{padding-top:58px}.wrap{width:min(var(--max),calc(100% - 28px))}.featured-grid{grid-template-columns:1fr;gap:25px}.pub-head,.foot{flex-direction:column;align-items:flex-start}.year-group summary{font-size:1.5rem}}
   </style>
 </head>
 <body>
 {% assign publication_post = site.posts | where: "title", "Publications" | first %}
 <header class="topbar"><div class="wrap nav"><a class="brand" href="/"><span class="mark">FG</span><strong>Florez-Garcia Lab</strong></a><nav class="navlinks"><a href="/">Home</a><a href="/#research">Research</a><a href="/publications/">Publications</a><a href="/academic/">Academic profile</a><a href="/#contact">Contact</a></nav></div></header>
 <main>
-  <section class="hero"><div class="wrap"><div class="eyebrow">Research output</div><h1>Publications</h1><p class="intro">One place for the lab's featured work and the complete peer-reviewed publication record.</p><span class="count">40 peer-reviewed articles · through 2026</span></div></section>
+  <section class="hero"><div class="wrap"><div class="eyebrow">Research output</div><h1>Publications</h1><p class="intro">One place for the lab's featured work and the complete peer-reviewed publication record.</p></div></section>
 
   <section class="featured" id="featured"><div class="wrap featured-grid"><div><div class="eyebrow">Featured research · 2026</div><div class="journal">Chemosphere</div><a class="btn" href="https://doi.org/10.1016/j.chemosphere.2026.144932" target="_blank" rel="noopener">Read the article ↗</a></div><div><h2>What could change if lead exposure were reduced?</h2><p>A study of the PROGRESS cohort in Mexico City combines biomarkers from multiple media with target trial emulation to examine lead exposure and children's intellectual functioning.</p><div class="citation">Florez-Garcia V, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. <em>Exposure to lead on children's intellectual functioning: A target trial with multimedia biomarkers in Mexico City.</em> Chemosphere. 2026;402:144932.</div></div></div></section>
 
-  <section class="pub-section" id="all"><div class="wrap"><a class="back" href="/">← Back to lab home</a><div class="pub-head"><h2>All publications</h2><span class="eyebrow">Newest to oldest</span></div><div class="pub-list">{{ publication_post.content }}</div></div></section>
+  <section class="pub-section" id="all"><div class="wrap"><a class="back" href="/">← Back to lab home</a><div class="pub-head"><h2>All publications</h2><span class="eyebrow">Browse by year</span></div><div id="year-groups"></div><div class="raw-publications" id="raw-publications">{{ publication_post.content }}</div></div></section>
 </main>
 <footer><div class="wrap foot"><span>© 2026 Florez-Garcia Lab</span><span>University of Illinois Chicago</span></div></footer>
+<script>
+(function(){
+  const raw=document.getElementById('raw-publications');
+  const target=document.getElementById('year-groups');
+  if(!raw||!target) return;
+  const items=[...raw.querySelectorAll('p')].filter(p=>/\b(19|20)\d{2}\b/.test(p.textContent));
+  const groups={};
+  items.forEach(p=>{
+    const m=p.textContent.match(/\b((?:19|20)\d{2})\b/);
+    if(!m) return;
+    const y=m[1];
+    (groups[y]||(groups[y]=[])).push(p.cloneNode(true));
+  });
+  Object.keys(groups).sort((a,b)=>b-a).forEach((year,idx)=>{
+    const details=document.createElement('details');
+    details.className='year-group';
+    if(idx===0) details.open=true;
+    const summary=document.createElement('summary');
+    summary.textContent=year;
+    const body=document.createElement('div');
+    body.className='year-items';
+    groups[year].forEach(el=>body.appendChild(el));
+    details.append(summary,body);
+    target.appendChild(details);
+  });
+})();
+</script>
 </body>
 </html>
