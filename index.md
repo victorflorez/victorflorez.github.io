@@ -9,296 +9,33 @@ permalink: /
   <meta name="description" content="Florez-Garcia Lab at the University of Illinois Chicago studies environmental exposures, metal mixtures, and child neurodevelopment.">
   <title>Florez-Garcia Lab | Environmental Epidemiology</title>
   <style>
-    :root{
-      --ink:#18231f;
-      --muted:#68736e;
-      --paper:#f5f4ef;
-      --white:#fff;
-      --line:#d8ddd9;
-      --accent:#315f50;
-      --accent-soft:#dde9e3;
-      --warm:#b87349;
-      --max:1180px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
-    a{color:inherit;text-decoration:none}
-    a:focus-visible,button:focus-visible{outline:3px solid #86aa9d;outline-offset:3px}
-    .wrap{width:min(var(--max),calc(100% - 40px));margin:0 auto}
-    .eyebrow{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;font-weight:750;color:var(--accent)}
-    .topbar{border-bottom:1px solid var(--line);background:rgba(245,244,239,.94);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}
-    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}
-    .brand{display:flex;align-items:center;gap:13px;min-width:max-content}
-    .mark{width:38px;height:38px;border:1px solid var(--ink);display:grid;place-items:center;font-weight:800;font-size:.78rem;letter-spacing:.05em}
-    .brand-text strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:1.02rem;font-weight:600}
-    .brand-text span{display:block;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:2px}
-    .navlinks{display:flex;align-items:center;gap:25px;font-size:.82rem;font-weight:650}
-    .navlinks a:hover{color:var(--accent)}
-    .lang{display:flex;align-items:center;border-left:1px solid var(--line);padding-left:20px;gap:5px}
-    .lang button{border:0;background:transparent;color:var(--muted);font:inherit;font-size:.75rem;font-weight:750;cursor:pointer;padding:5px 7px}
-    .lang button.active{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
-
-    .hero{padding:90px 0 68px;border-bottom:1px solid var(--line)}
-    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}
-    h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.025em;margin:0}
-    h1{font-size:clamp(3.4rem,7vw,6.8rem);line-height:.92;max-width:760px;margin:19px 0 28px}
-    .hero-copy{font-size:1.18rem;max-width:670px;color:#43504a}
-    .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
-    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border:1px solid var(--ink);font-size:.84rem;font-weight:750;transition:.2s ease}
-    .btn.primary{background:var(--ink);color:white}
-    .btn:hover{transform:translateY(-2px)}
-
-    .trajectory{min-height:465px;border:1px solid #cfd6d2;background:#edf0ec;position:relative;overflow:hidden;padding:30px}
-    .trajectory:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 45%,rgba(49,95,80,.06) 46%,rgba(49,95,80,.06) 54%,transparent 55%)}
-    .maplabel{position:absolute;top:25px;left:28px;font-size:.69rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:750}
-    .route{position:absolute;left:14%;right:13%;top:49%;height:1px;background:#9ba8a1;transform:rotate(-13deg)}
-    .node{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent);box-shadow:0 0 0 7px rgba(49,95,80,.08)}
-    .node span{position:absolute;white-space:nowrap;font-size:.74rem;font-weight:760;letter-spacing:.04em}
-    .n1{left:15%;bottom:27%}.n1 span{left:22px;top:-2px}
-    .n2{left:47%;top:45%}.n2 span{left:22px;top:-2px}
-    .n3{right:16%;top:27%}.n3 span{right:22px;top:-28px}
-    .element-cloud{position:absolute;right:30px;bottom:29px;display:grid;grid-template-columns:repeat(3,52px);gap:8px}
-    .el{height:52px;border:1px solid #aab5af;background:rgba(255,255,255,.4);display:flex;flex-direction:column;align-items:center;justify-content:center}
-    .el strong{font-family:Georgia,"Times New Roman",serif;font-size:1.2rem}.el small{font-size:.56rem;color:var(--muted)}
-
-    section{padding:86px 0;border-bottom:1px solid var(--line)}
-    .section-head{display:grid;grid-template-columns:220px 1fr;gap:40px;margin-bottom:48px}
-    .section-head h2{font-size:clamp(2.3rem,4.2vw,4.4rem);line-height:1.04;max-width:780px}
-    .lead{font-size:1.08rem;color:#4d5954;max-width:760px}
-    .lab-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px}
-    .lab-grid p{font-size:1.08rem;color:#4b5752;margin:0 0 20px}
-    .facts{border-top:1px solid var(--ink)}
-    .fact{display:grid;grid-template-columns:42px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}
-    .fact-num{font-family:Georgia,"Times New Roman",serif;color:var(--warm);font-size:1rem}
-    .fact strong{display:block;margin-bottom:4px}
-    .fact span{font-size:.9rem;color:var(--muted)}
-
-    .themes{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
-    .theme{padding:30px 28px 36px 0;margin-right:28px;border-right:1px solid var(--line)}
-    .theme:last-child{border-right:0;margin-right:0}
-    .theme .num{font-size:.74rem;color:var(--warm);font-weight:800;margin-bottom:50px}
-    .theme h3{font-size:1.75rem;margin-bottom:12px}
-    .theme p{color:var(--muted);margin:0;font-size:.94rem}
-
-    .publication{background:var(--ink);color:#edf2ef}
-    .publication .eyebrow{color:#9bc0b1}
-    .pub-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:70px;align-items:end}
-    .pub-kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:#aab9b2;margin-bottom:18px}
-    .publication h2{font-size:clamp(2.45rem,4.5vw,4.8rem);line-height:1.02}
-    .pub-copy{font-size:1.08rem;color:#c7d0cc;margin:23px 0 28px;max-width:690px}
-    .citation{border-top:1px solid #53605a;padding-top:20px;color:#aebbb5;font-size:.84rem}
-    .publication .btn{border-color:#dbe4df;color:#fff}
-
-    .journey{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
-    .stop{background:var(--paper);padding:34px 32px;min-height:255px}
-    .stop small{font-size:.68rem;letter-spacing:.11em;text-transform:uppercase;color:var(--warm);font-weight:750}
-    .stop h3{font-size:2rem;margin:45px 0 12px}.stop p{color:var(--muted);margin:0}
-
-    .pi-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:65px;align-items:start}
-    .pi-card{border-top:1px solid var(--ink);padding-top:20px}
-    .pi-card h3{font-size:2.2rem;margin-bottom:8px}.pi-card p{margin:0;color:var(--muted)}
-    .pi-card .role{color:var(--accent);font-weight:700;margin-top:18px}
-    .pi-copy p{font-size:1.05rem;color:#49554f;margin:0 0 18px}
-    .links{display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}.links a{font-size:.8rem;font-weight:750;border-bottom:1px solid var(--ink);padding-bottom:3px}
-
-    footer{padding:62px 0 34px;background:#e7e9e5}
-    .footer-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:end}
-    .footer-title{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,4vw,4rem);line-height:1.02;margin:10px 0 20px}
-    .contact{font-size:.9rem;color:#59645f;text-align:right}.contact strong{color:var(--ink)}
-    .copyright{margin-top:48px;padding-top:18px;border-top:1px solid #cbd0cc;display:flex;justify-content:space-between;gap:20px;font-size:.72rem;color:#78817d}
-
-    [data-lang="es"]{display:none}
-    body.es [data-lang="en"]{display:none}
-    body.es [data-lang="es"]{display:initial}
-    body.es div[data-lang="es"],body.es section[data-lang="es"],body.es p[data-lang="es"]{display:block}
-
-    @media(max-width:900px){
-      .navlinks>a{display:none}.nav{height:68px}.brand-text span{display:none}
-      .hero{padding-top:62px}.hero-grid,.lab-grid,.pub-grid,.pi-grid,.footer-grid{grid-template-columns:1fr;gap:38px}
-      .trajectory{min-height:390px}.section-head{grid-template-columns:1fr;gap:16px}.themes,.journey{grid-template-columns:1fr}
-      .theme{border-right:0;border-bottom:1px solid var(--line);margin-right:0;padding-right:0}.theme .num{margin-bottom:24px}
-      .contact{text-align:left}
-    }
-    @media(max-width:560px){
-      .wrap{width:min(100% - 28px,var(--max))}.brand-text strong{font-size:.9rem}.lang{padding-left:7px}.mark{width:34px;height:34px}
-      h1{font-size:3.35rem}.hero-copy{font-size:1.03rem}.trajectory{min-height:330px;padding:20px}.element-cloud{grid-template-columns:repeat(3,42px);right:18px}.el{height:42px}.n3{right:22%}
-      section{padding:64px 0}.stop{min-height:0}.copyright{flex-direction:column}
-    }
+    :root{--ink:#18231f;--muted:#68736e;--paper:#f5f4ef;--white:#fff;--line:#d8ddd9;--accent:#315f50;--warm:#b87349;--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:0 auto}.eyebrow{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;font-weight:750;color:var(--accent)}
+    .topbar{border-bottom:1px solid var(--line);background:rgba(245,244,239,.94);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:13px;min-width:max-content}.mark{width:38px;height:38px;border:1px solid var(--ink);display:grid;place-items:center;font-weight:800;font-size:.78rem}.brand-text strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:1.02rem;font-weight:600}.brand-text span{display:block;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:2px}.navlinks{display:flex;align-items:center;gap:22px;font-size:.82rem;font-weight:650}.navlinks a:hover{color:var(--accent)}.lang{display:flex;align-items:center;border-left:1px solid var(--line);padding-left:18px;gap:5px}.lang button{border:0;background:transparent;color:var(--muted);font:inherit;font-size:.75rem;font-weight:750;cursor:pointer;padding:5px 7px}.lang button.active{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+    .hero{padding:90px 0 68px;border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:70px;align-items:center}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.025em;margin:0}h1{font-size:clamp(3.4rem,7vw,6.8rem);line-height:.92;max-width:760px;margin:19px 0 28px}.hero-copy{font-size:1.18rem;max-width:670px;color:#43504a}.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border:1px solid var(--ink);font-size:.84rem;font-weight:750;transition:.2s ease}.btn.primary{background:var(--ink);color:white}.btn:hover{transform:translateY(-2px)}
+    .trajectory{min-height:465px;border:1px solid #cfd6d2;background:#edf0ec;position:relative;overflow:hidden;padding:30px}.trajectory:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 45%,rgba(49,95,80,.06) 46%,rgba(49,95,80,.06) 54%,transparent 55%)}.maplabel{position:absolute;top:25px;left:28px;font-size:.69rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:750}.route{position:absolute;left:14%;right:13%;top:49%;height:1px;background:#9ba8a1;transform:rotate(-13deg)}.node{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--accent);box-shadow:0 0 0 7px rgba(49,95,80,.08)}.node span{position:absolute;white-space:nowrap;font-size:.74rem;font-weight:760}.n1{left:15%;bottom:27%}.n1 span{left:22px;top:-2px}.n2{left:47%;top:45%}.n2 span{left:22px;top:-2px}.n3{right:16%;top:27%}.n3 span{right:22px;top:-28px}.element-cloud{position:absolute;right:30px;bottom:29px;display:grid;grid-template-columns:repeat(3,52px);gap:8px}.el{height:52px;border:1px solid #aab5af;background:rgba(255,255,255,.4);display:flex;flex-direction:column;align-items:center;justify-content:center}.el strong{font-family:Georgia,"Times New Roman",serif;font-size:1.2rem}.el small{font-size:.56rem;color:var(--muted)}
+    section{padding:86px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:220px 1fr;gap:40px;margin-bottom:48px}.section-head h2{font-size:clamp(2.3rem,4.2vw,4.4rem);line-height:1.04;max-width:780px}.lab-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px}.lab-grid p{font-size:1.08rem;color:#4b5752;margin:0 0 20px}.facts{border-top:1px solid var(--ink)}.fact{display:grid;grid-template-columns:42px 1fr;gap:18px;padding:18px 0;border-bottom:1px solid var(--line)}.fact-num{font-family:Georgia,"Times New Roman",serif;color:var(--warm)}.fact strong{display:block;margin-bottom:4px}.fact span{font-size:.9rem;color:var(--muted)}
+    .themes{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}.theme{padding:30px 28px 36px 0;margin-right:28px;border-right:1px solid var(--line)}.theme:last-child{border-right:0;margin-right:0}.theme .num{font-size:.74rem;color:var(--warm);font-weight:800;margin-bottom:50px}.theme h3{font-size:1.75rem;margin-bottom:12px}.theme p{color:var(--muted);margin:0;font-size:.94rem}
+    .publication{background:var(--ink);color:#edf2ef}.publication .eyebrow{color:#9bc0b1}.pub-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:70px;align-items:end}.pub-kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:#aab9b2;margin-bottom:18px}.publication h2{font-size:clamp(2.45rem,4.5vw,4.8rem);line-height:1.02}.pub-copy{font-size:1.08rem;color:#c7d0cc;margin:23px 0 28px;max-width:690px}.citation{border-top:1px solid #53605a;padding-top:20px;color:#aebbb5;font-size:.84rem}.publication .btn{border-color:#dbe4df;color:#fff}.pub-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+    .journey{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.stop{background:var(--paper);padding:34px 32px;min-height:255px}.stop small{font-size:.68rem;letter-spacing:.11em;text-transform:uppercase;color:var(--warm);font-weight:750}.stop h3{font-size:2rem;margin:45px 0 12px}.stop p{color:var(--muted);margin:0}
+    .pi-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:65px;align-items:start}.pi-card{border-top:1px solid var(--ink);padding-top:20px}.pi-card h3{font-size:2.2rem;margin-bottom:8px}.pi-card p{margin:0;color:var(--muted)}.pi-card .role{color:var(--accent);font-weight:700;margin-top:18px}.pi-copy p{font-size:1.05rem;color:#49554f;margin:0 0 18px}.links{display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}.links a{font-size:.8rem;font-weight:750;border-bottom:1px solid var(--ink);padding-bottom:3px}
+    footer{padding:62px 0 34px;background:#e7e9e5}.footer-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:end}.footer-title{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,4vw,4rem);line-height:1.02;margin:10px 0 20px}.contact{font-size:.9rem;color:#59645f;text-align:right}.contact strong{color:var(--ink)}.copyright{margin-top:48px;padding-top:18px;border-top:1px solid #cbd0cc;display:flex;justify-content:space-between;gap:20px;font-size:.72rem;color:#78817d}
+    [data-lang="es"]{display:none}body.es [data-lang="en"]{display:none}body.es [data-lang="es"]{display:initial}body.es div[data-lang="es"],body.es p[data-lang="es"]{display:block}
+    @media(max-width:900px){.navlinks>a{display:none}.nav{height:68px}.brand-text span{display:none}.hero{padding-top:62px}.hero-grid,.lab-grid,.pub-grid,.pi-grid,.footer-grid{grid-template-columns:1fr;gap:38px}.trajectory{min-height:390px}.section-head{grid-template-columns:1fr;gap:16px}.themes,.journey{grid-template-columns:1fr}.theme{border-right:0;border-bottom:1px solid var(--line);margin-right:0;padding-right:0}.theme .num{margin-bottom:24px}.contact{text-align:left}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,var(--max))}h1{font-size:3.35rem}.hero-copy{font-size:1.03rem}.trajectory{min-height:330px}.element-cloud{grid-template-columns:repeat(3,42px);right:18px}.el{height:42px}section{padding:64px 0}.copyright{flex-direction:column}}
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap nav">
-      <a class="brand" href="#top" aria-label="Florez-Garcia Lab home">
-        <span class="mark">FG</span>
-        <span class="brand-text"><strong>Florez-Garcia Lab</strong><span>Environmental Epidemiology</span></span>
-      </a>
-      <nav class="navlinks" aria-label="Primary navigation">
-        <a href="#lab"><span data-lang="en">Lab</span><span data-lang="es">Laboratorio</span></a>
-        <a href="#research"><span data-lang="en">Research</span><span data-lang="es">Investigación</span></a>
-        <a href="#publication"><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></a>
-        <a href="#pi"><span data-lang="en">Principal investigator</span><span data-lang="es">Investigador principal</span></a>
-        <a href="#contact"><span data-lang="en">Contact</span><span data-lang="es">Contacto</span></a>
-        <span class="lang"><button id="esBtn" type="button">ES</button><button id="enBtn" type="button" class="active">EN</button></span>
-      </nav>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <div class="eyebrow">Environmental epidemiology · University of Illinois Chicago</div>
-          <h1>Florez-Garcia Lab</h1>
-          <p class="hero-copy" data-lang="en">Environment. Exposures. Neurodevelopment. We study how metals and their mixtures influence children’s health—from exposures during pregnancy to cognitive and social-emotional development.</p>
-          <p class="hero-copy" data-lang="es">Ambiente. Exposiciones. Neurodesarrollo. Estudiamos cómo los metales y sus mezclas influyen en la salud infantil, desde las exposiciones durante el embarazo hasta el desarrollo cognitivo y socioemocional.</p>
-          <div class="cta-row">
-            <a class="btn primary" href="#research"><span data-lang="en">Explore the research</span><span data-lang="es">Explorar la investigación</span></a>
-            <a class="btn" href="#pi"><span data-lang="en">Meet the PI</span><span data-lang="es">Conocer al investigador</span></a>
-          </div>
-        </div>
-        <div class="trajectory" aria-label="Research trajectory from Colombia through Mexico to Chicago">
-          <div class="maplabel"><span data-lang="en">Research trajectory</span><span data-lang="es">Trayectoria de investigación</span></div>
-          <div class="route"></div>
-          <div class="node n1"><span>Colombia</span></div>
-          <div class="node n2"><span>Mexico</span></div>
-          <div class="node n3"><span>Chicago</span></div>
-          <div class="element-cloud" aria-hidden="true">
-            <div class="el"><strong>Pb</strong><small>Lead</small></div>
-            <div class="el"><strong>Cd</strong><small>Cadmium</small></div>
-            <div class="el"><strong>As</strong><small>Arsenic</small></div>
-            <div class="el"><strong>Mn</strong><small>Manganese</small></div>
-            <div class="el"><strong>Se</strong><small>Selenium</small></div>
-            <div class="el"><strong>Zn</strong><small>Zinc</small></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="lab">
-      <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">01 / <span data-lang="en">The lab</span><span data-lang="es">El laboratorio</span></div>
-          <h2 data-lang="en">Complex exposures. Questions that matter.</h2>
-          <h2 data-lang="es">Exposiciones complejas. Preguntas que importan.</h2>
-        </div>
-        <div class="lab-grid">
-          <div>
-            <p data-lang="en">The Florez-Garcia Lab examines the relationship between the environment and health, with a central focus on child neurodevelopment. We integrate exposure biomarkers, population studies, and quantitative methods to understand joint exposures and identify windows of susceptibility.</p>
-            <p data-lang="en">Our goal is to generate evidence that can evaluate prevention strategies and potential interventions to reduce harmful environmental exposures. This agenda builds on a research trajectory spanning Latin America and the United States.</p>
-            <p data-lang="es">El Florez-Garcia Lab estudia la relación entre el ambiente y la salud, con énfasis en el neurodesarrollo infantil. Integramos biomarcadores de exposición, estudios poblacionales y métodos cuantitativos para comprender exposiciones simultáneas e identificar ventanas de susceptibilidad.</p>
-            <p data-lang="es">Buscamos generar evidencia que permita evaluar estrategias de prevención y posibles intervenciones para reducir exposiciones ambientales nocivas. Esta agenda se apoya en una trayectoria de investigación desarrollada entre América Latina y Estados Unidos.</p>
-          </div>
-          <div class="facts">
-            <div class="fact"><div class="fact-num">01</div><div><strong><span data-lang="en">Early-life exposures</span><span data-lang="es">Exposiciones tempranas</span></strong><span data-lang="en">Prenatal and childhood windows of susceptibility.</span><span data-lang="es">Ventanas de susceptibilidad prenatal y durante la infancia.</span></div></div>
-            <div class="fact"><div class="fact-num">02</div><div><strong><span data-lang="en">Metal mixtures</span><span data-lang="es">Mezclas de metales</span></strong><span data-lang="en">Essential and non-essential elements considered together.</span><span data-lang="es">Elementos esenciales y no esenciales evaluados conjuntamente.</span></div></div>
-            <div class="fact"><div class="fact-num">03</div><div><strong><span data-lang="en">Actionable evidence</span><span data-lang="es">Evidencia para la acción</span></strong><span data-lang="en">Causal inference and intervention-oriented questions.</span><span data-lang="es">Inferencia causal y preguntas orientadas a intervenciones.</span></div></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="research">
-      <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">02 / <span data-lang="en">Research</span><span data-lang="es">Investigación</span></div>
-          <h2 data-lang="en">Three themes, one connected agenda.</h2>
-          <h2 data-lang="es">Tres ejes, una agenda conectada.</h2>
-        </div>
-        <div class="themes">
-          <article class="theme"><div class="num">01</div><h3 data-lang="en">Environmental mixtures</h3><h3 data-lang="es">Mezclas ambientales</h3><p data-lang="en">Essential and non-essential metals, simultaneous exposures, and the balance between elements.</p><p data-lang="es">Metales esenciales y no esenciales, exposiciones simultáneas y el balance entre elementos.</p></article>
-          <article class="theme"><div class="num">02</div><h3 data-lang="en">Early development</h3><h3 data-lang="es">Desarrollo temprano</h3><p data-lang="en">Prenatal and childhood exposure; cognition, behavior, and social-emotional health.</p><p data-lang="es">Exposición prenatal e infantil; cognición, comportamiento y salud socioemocional.</p></article>
-          <article class="theme"><div class="num">03</div><h3 data-lang="en">Causal evidence</h3><h3 data-lang="es">Evidencia causal</h3><p data-lang="en">Biomarkers across multiple matrices, target trial emulation, and hypothetical interventions.</p><p data-lang="es">Biomarcadores en múltiples matrices, emulación de ensayos objetivo e intervenciones hipotéticas.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="publication" class="publication">
-      <div class="wrap pub-grid">
-        <div>
-          <div class="eyebrow">03 / Featured publication · 2026</div>
-          <div class="pub-kicker">Chemosphere</div>
-          <a class="btn" href="https://doi.org/10.1016/j.chemosphere.2026.144932" target="_blank" rel="noopener"><span data-lang="en">Read the article ↗</span><span data-lang="es">Leer el artículo ↗</span></a>
-        </div>
-        <div>
-          <h2 data-lang="en">What could change if lead exposure were reduced?</h2>
-          <h2 data-lang="es">¿Qué podría cambiar si se redujera la exposición al plomo?</h2>
-          <p class="pub-copy" data-lang="en">A study of the PROGRESS cohort in Mexico City combines biomarkers from multiple media with target trial emulation to examine lead exposure and children’s intellectual functioning.</p>
-          <p class="pub-copy" data-lang="es">Un estudio de la cohorte PROGRESS en Ciudad de México combina biomarcadores de múltiples matrices con emulación de ensayo objetivo para examinar la exposición al plomo y el funcionamiento intelectual infantil.</p>
-          <div class="citation">Florez-Garcia V, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. <em>Exposure to lead on children’s intellectual functioning: A target trial with multimedia biomarkers in Mexico City.</em> Chemosphere. 2026;402:144932.</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="journey">
-      <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">04 / <span data-lang="en">Trajectory</span><span data-lang="es">Trayectoria</span></div>
-          <h2 data-lang="en">A research path across Latin America and the United States.</h2>
-          <h2 data-lang="es">Una trayectoria de investigación entre América Latina y Estados Unidos.</h2>
-        </div>
-        <div class="journey">
-          <article class="stop"><small>Colombia</small><h3 data-lang="en">Population health</h3><h3 data-lang="es">Salud poblacional</h3><p data-lang="en">Education, teaching, epidemiology, and public-health research grounded in Latin American populations.</p><p data-lang="es">Formación, docencia, epidemiología e investigación en salud pública con base en poblaciones latinoamericanas.</p></article>
-          <article class="stop"><small>Mexico</small><h3>PROGRESS</h3><p data-lang="en">Early-life metals, multimedia biomarkers, critical windows, and children’s cognitive development.</p><p data-lang="es">Metales en etapas tempranas, biomarcadores multimatriz, ventanas críticas y desarrollo cognitivo infantil.</p></article>
-          <article class="stop"><small>Chicago · UIC</small><h3 data-lang="en">Environmental epidemiology</h3><h3 data-lang="es">Epidemiología ambiental</h3><p data-lang="en">Exposure mixtures, causal inference, child health, and training the next generation of public-health researchers.</p><p data-lang="es">Mezclas de exposición, inferencia causal, salud infantil y formación de nuevas generaciones de investigadores en salud pública.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="pi">
-      <div class="wrap">
-        <div class="section-head">
-          <div class="eyebrow">05 / <span data-lang="en">Principal investigator</span><span data-lang="es">Investigador principal</span></div>
-          <h2>Victor Florez-Garcia, PhD</h2>
-        </div>
-        <div class="pi-grid">
-          <div class="pi-card">
-            <h3>Victor Florez-Garcia</h3>
-            <p class="role">Assistant Professor</p>
-            <p>Division of Epidemiology &amp; Biostatistics<br>School of Public Health<br>University of Illinois Chicago</p>
-          </div>
-          <div class="pi-copy">
-            <p data-lang="en">Victor Florez-Garcia is an environmental epidemiologist whose work focuses on early-life exposure to metals and metal mixtures and their effects on child neurodevelopment. His research combines biomarker-based exposure assessment with modern epidemiologic methods, including mixture modeling and causal inference.</p>
-            <p data-lang="en">His broader research trajectory includes cardiometabolic health, cancer epidemiology, population health in Latin America, and the application of quantitative methods to public-health questions.</p>
-            <p data-lang="es">Victor Florez-Garcia es epidemiólogo ambiental y su trabajo se enfoca en la exposición temprana a metales y mezclas de metales y sus efectos sobre el neurodesarrollo infantil. Su investigación combina evaluación de exposición mediante biomarcadores con métodos epidemiológicos modernos, incluyendo análisis de mezclas e inferencia causal.</p>
-            <p data-lang="es">Su trayectoria también incluye salud cardiometabólica, epidemiología del cáncer, salud poblacional en América Latina y la aplicación de métodos cuantitativos a preguntas de salud pública.</p>
-            <div class="links">
-              <a href="https://scholar.google.es/citations?user=8kN367IAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar ↗</a>
-              <a href="https://orcid.org/0000-0002-1548-623X" target="_blank" rel="noopener">ORCID ↗</a>
-              <a href="https://www.linkedin.com/in/v%C3%ADctor-florez-garcia-46148267/" target="_blank" rel="noopener">LinkedIn ↗</a>
-              <a href="https://github.com/victorflorez" target="_blank" rel="noopener">GitHub ↗</a>
-              <a href="/Articles/">Publications archive →</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer id="contact">
-    <div class="wrap">
-      <div class="footer-grid">
-        <div><div class="eyebrow">Florez-Garcia Lab</div><div class="footer-title" data-lang="en">Connect ideas.<br>Advance the evidence.</div><div class="footer-title" data-lang="es">Conectar ideas.<br>Avanzar la evidencia.</div><a class="btn primary" href="mailto:victor8@uic.edu">victor8@uic.edu</a></div>
-        <div class="contact"><strong>Victor Florez-Garcia, PhD</strong><br>Division of Epidemiology &amp; Biostatistics<br>School of Public Health · University of Illinois Chicago<br>1603 W. Taylor St. · 989 SPHPI · MC 923<br>Chicago, IL 60612</div>
-      </div>
-      <div class="copyright"><span>© 2026 Florez-Garcia Lab</span><span>Environmental Epidemiology · University of Illinois Chicago</span></div>
-    </div>
-  </footer>
-
-  <script>
-    const esBtn=document.getElementById('esBtn');
-    const enBtn=document.getElementById('enBtn');
-    function setLanguage(lang){
-      document.body.classList.toggle('es',lang==='es');
-      document.documentElement.lang=lang;
-      esBtn.classList.toggle('active',lang==='es');
-      enBtn.classList.toggle('active',lang==='en');
-      localStorage.setItem('fg-language',lang);
-    }
-    esBtn.addEventListener('click',()=>setLanguage('es'));
-    enBtn.addEventListener('click',()=>setLanguage('en'));
-    setLanguage(localStorage.getItem('fg-language')||'en');
-  </script>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="#top"><span class="mark">FG</span><span class="brand-text"><strong>Florez-Garcia Lab</strong><span>Environmental Epidemiology</span></span></a><nav class="navlinks"><a href="#lab"><span data-lang="en">Lab</span><span data-lang="es">Laboratorio</span></a><a href="#research"><span data-lang="en">Research</span><span data-lang="es">Investigación</span></a><a href="/publications/"><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></a><a href="/academic/"><span data-lang="en">Academic profile</span><span data-lang="es">Perfil académico</span></a><a href="#contact"><span data-lang="en">Contact</span><span data-lang="es">Contacto</span></a><span class="lang"><button id="esBtn">ES</button><button id="enBtn" class="active">EN</button></span></nav></div></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Environmental epidemiology · University of Illinois Chicago</div><h1>Florez-Garcia Lab</h1><p class="hero-copy" data-lang="en">Environment. Exposures. Neurodevelopment. We study how metals and their mixtures influence children’s health—from exposures during pregnancy to cognitive and social-emotional development.</p><p class="hero-copy" data-lang="es">Ambiente. Exposiciones. Neurodesarrollo. Estudiamos cómo los metales y sus mezclas influyen en la salud infantil, desde las exposiciones durante el embarazo hasta el desarrollo cognitivo y socioemocional.</p><div class="cta-row"><a class="btn primary" href="#research"><span data-lang="en">Explore the research</span><span data-lang="es">Explorar la investigación</span></a><a class="btn" href="/academic/"><span data-lang="en">Meet the PI</span><span data-lang="es">Conocer al investigador</span></a></div></div><div class="trajectory"><div class="maplabel">Research trajectory</div><div class="route"></div><div class="node n1"><span>Colombia</span></div><div class="node n2"><span>Mexico</span></div><div class="node n3"><span>Chicago</span></div><div class="element-cloud"><div class="el"><strong>Pb</strong><small>Lead</small></div><div class="el"><strong>Cd</strong><small>Cadmium</small></div><div class="el"><strong>As</strong><small>Arsenic</small></div><div class="el"><strong>Mn</strong><small>Manganese</small></div><div class="el"><strong>Se</strong><small>Selenium</small></div><div class="el"><strong>Zn</strong><small>Zinc</small></div></div></div></div></section>
+<section id="lab"><div class="wrap"><div class="section-head"><div class="eyebrow">01 / <span data-lang="en">The lab</span><span data-lang="es">El laboratorio</span></div><h2 data-lang="en">Complex exposures. Questions that matter.</h2><h2 data-lang="es">Exposiciones complejas. Preguntas que importan.</h2></div><div class="lab-grid"><div><p data-lang="en">The Florez-Garcia Lab examines the relationship between the environment and health, with a central focus on child neurodevelopment. We integrate exposure biomarkers, population studies, and quantitative methods to understand joint exposures and identify windows of susceptibility.</p><p data-lang="en">Our goal is to generate evidence that can evaluate prevention strategies and potential interventions to reduce harmful environmental exposures. This agenda builds on a research trajectory spanning Latin America and the United States.</p><p data-lang="es">El Florez-Garcia Lab estudia la relación entre el ambiente y la salud, con énfasis en el neurodesarrollo infantil. Integramos biomarcadores de exposición, estudios poblacionales y métodos cuantitativos para comprender exposiciones simultáneas e identificar ventanas de susceptibilidad.</p><p data-lang="es">Buscamos generar evidencia que permita evaluar estrategias de prevención y posibles intervenciones para reducir exposiciones ambientales nocivas.</p></div><div class="facts"><div class="fact"><div class="fact-num">01</div><div><strong>Early-life exposures</strong><span>Prenatal and childhood windows of susceptibility.</span></div></div><div class="fact"><div class="fact-num">02</div><div><strong>Metal mixtures</strong><span>Essential and non-essential elements considered together.</span></div></div><div class="fact"><div class="fact-num">03</div><div><strong>Actionable evidence</strong><span>Causal inference and intervention-oriented questions.</span></div></div></div></div></div></section>
+<section id="research"><div class="wrap"><div class="section-head"><div class="eyebrow">02 / Research</div><h2 data-lang="en">Three themes, one connected agenda.</h2><h2 data-lang="es">Tres ejes, una agenda conectada.</h2></div><div class="themes"><article class="theme"><div class="num">01</div><h3>Environmental mixtures</h3><p>Essential and non-essential metals, simultaneous exposures, and the balance between elements.</p></article><article class="theme"><div class="num">02</div><h3>Early development</h3><p>Prenatal and childhood exposure; cognition, behavior, and social-emotional health.</p></article><article class="theme"><div class="num">03</div><h3>Causal evidence</h3><p>Biomarkers across multiple matrices, target trial emulation, and hypothetical interventions.</p></article></div></div></section>
+<section class="publication"><div class="wrap pub-grid"><div><div class="eyebrow">03 / Featured research · 2026</div><div class="pub-kicker">Chemosphere</div><div class="pub-actions"><a class="btn" href="/publications/#featured">Publications</a><a class="btn" href="https://doi.org/10.1016/j.chemosphere.2026.144932" target="_blank" rel="noopener">Read article ↗</a></div></div><div><h2>What could change if lead exposure were reduced?</h2><p class="pub-copy">A study of the PROGRESS cohort in Mexico City combines biomarkers from multiple media with target trial emulation to examine lead exposure and children’s intellectual functioning.</p><div class="citation">Florez-Garcia V, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. <em>Exposure to lead on children’s intellectual functioning: A target trial with multimedia biomarkers in Mexico City.</em> Chemosphere. 2026;402:144932.</div></div></div></section>
+<section id="journey"><div class="wrap"><div class="section-head"><div class="eyebrow">04 / Trajectory</div><h2>A research path across Latin America and the United States.</h2></div><div class="journey"><article class="stop"><small>Colombia</small><h3>Population health</h3><p>Education, teaching, epidemiology, and public-health research grounded in Latin American populations.</p></article><article class="stop"><small>Mexico</small><h3>PROGRESS</h3><p>Early-life metals, multimedia biomarkers, critical windows, and children’s cognitive development.</p></article><article class="stop"><small>Chicago · UIC</small><h3>Environmental epidemiology</h3><p>Exposure mixtures, causal inference, child health, and training the next generation of public-health researchers.</p></article></div></div></section>
+<section id="pi"><div class="wrap"><div class="section-head"><div class="eyebrow">05 / Principal investigator</div><h2>Victor Florez-Garcia, PhD</h2></div><div class="pi-grid"><div class="pi-card"><h3>Victor Florez-Garcia</h3><p class="role">Assistant Professor</p><p>Division of Epidemiology &amp; Biostatistics<br>School of Public Health<br>University of Illinois Chicago</p></div><div class="pi-copy"><p>Victor Florez-Garcia is an environmental epidemiologist whose work focuses on early-life exposure to metals and metal mixtures and their effects on child neurodevelopment. His research combines biomarker-based exposure assessment with modern epidemiologic methods, including mixture modeling and causal inference.</p><div class="links"><a href="/academic/">Academic profile →</a><a href="/publications/">Publications →</a><a href="https://scholar.google.es/citations?user=8kN367IAAAAJ&hl=en" target="_blank">Google Scholar ↗</a><a href="https://orcid.org/0000-0002-1548-623X" target="_blank">ORCID ↗</a><a href="https://www.linkedin.com/in/v%C3%ADctor-florez-garcia-46148267/" target="_blank">LinkedIn ↗</a></div></div></div></div></section>
+</main>
+<footer id="contact"><div class="wrap"><div class="footer-grid"><div><div class="eyebrow">Florez-Garcia Lab</div><div class="footer-title">Connect ideas.<br>Advance the evidence.</div><a class="btn primary" href="mailto:victor8@uic.edu">victor8@uic.edu</a></div><div class="contact"><strong>Victor Florez-Garcia, PhD</strong><br>Division of Epidemiology &amp; Biostatistics<br>School of Public Health · University of Illinois Chicago<br>1603 W. Taylor St. · 989 SPHPI · MC 923<br>Chicago, IL 60612</div></div><div class="copyright"><span>© 2026 Florez-Garcia Lab</span><span>Environmental Epidemiology · University of Illinois Chicago</span></div></div></footer>
+<script>const esBtn=document.getElementById('esBtn'),enBtn=document.getElementById('enBtn');function setLanguage(lang){document.body.classList.toggle('es',lang==='es');document.documentElement.lang=lang;esBtn.classList.toggle('active',lang==='es');enBtn.classList.toggle('active',lang==='en');localStorage.setItem('fg-language',lang)}esBtn.addEventListener('click',()=>setLanguage('es'));enBtn.addEventListener('click',()=>setLanguage('en'));setLanguage(localStorage.getItem('fg-language')||'en');</script>
 </body>
 </html>
