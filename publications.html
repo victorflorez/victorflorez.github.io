@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: /publications/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Peer-reviewed publications from Victor Florez-Garcia and the Florez-Garcia Lab.">
+  <title>Publications | Florez-Garcia Lab</title>
+  <style>
+    :root{--ink:#18231f;--muted:#68736e;--paper:#f5f4ef;--line:#d8ddd9;--accent:#315f50;--warm:#b87349;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .topbar{border-bottom:1px solid var(--line);background:rgba(245,244,239,.96);position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.mark{width:38px;height:38px;border:1px solid var(--ink);display:grid;place-items:center;font-weight:800;font-size:.78rem}.brand strong{font-family:Georgia,"Times New Roman",serif;font-size:1.02rem}.navlinks{display:flex;gap:24px;font-size:.83rem;font-weight:700}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--accent)}
+    .hero{padding:86px 0 52px;border-bottom:1px solid var(--line)}.eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--accent)}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.025em}h1{font-size:clamp(3.3rem,7vw,6.4rem);line-height:.95;margin:18px 0 24px}.intro{max-width:760px;font-size:1.12rem;color:#4b5752}.count{display:inline-block;margin-top:24px;padding:9px 12px;border:1px solid var(--line);font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .pub-section{padding:64px 0 90px}.pub-list>img,.pub-list>h2{display:none}.pub-list p{margin:0;padding:22px 0;border-top:1px solid var(--line);font-size:.98rem;color:#39443f}.pub-list p:first-of-type{border-top:1px solid var(--ink)}.pub-list strong{color:var(--ink)}.pub-list a{color:var(--accent);font-weight:700;text-underline-offset:3px}.pub-list a:hover{color:var(--warm)}
+    .back{display:inline-flex;margin-bottom:30px;text-decoration:none;border-bottom:1px solid var(--ink);font-size:.83rem;font-weight:800;padding-bottom:3px}
+    footer{padding:40px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:25px}
+    @media(max-width:760px){.navlinks a:not(:first-child){display:none}.hero{padding-top:58px}.wrap{width:min(var(--max),calc(100% - 28px))}.foot{flex-direction:column}}
+  </style>
+</head>
+<body>
+{% assign publication_post = site.posts | where: "title", "Publications" | first %}
+<header class="topbar"><div class="wrap nav"><a class="brand" href="/"><span class="mark">FG</span><strong>Florez-Garcia Lab</strong></a><nav class="navlinks"><a href="/">Home</a><a href="/#research">Research</a><a href="/academic/">Academic profile</a><a href="/#contact">Contact</a></nav></div></header>
+<main>
+  <section class="hero"><div class="wrap"><div class="eyebrow">Research output</div><h1>Publications</h1><p class="intro">Peer-reviewed research spanning environmental epidemiology, early-life metal exposures, child neurodevelopment, causal inference, cardiometabolic health, cancer epidemiology, migration, and population health.</p><span class="count">40 peer-reviewed articles · through 2026</span></div></section>
+  <section class="pub-section"><div class="wrap"><a class="back" href="/">← Back to lab home</a><div class="pub-list">{{ publication_post.content }}</div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 Florez-Garcia Lab</span><span>University of Illinois Chicago</span></div></footer>
+</body>
+</html>
