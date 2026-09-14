@@ -8,7 +8,7 @@ permalink: /publications/
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Peer-reviewed publications from Victor Florez-Garcia and the Florez-Garcia Lab.">
-  <title>Publications | Florez-Garcia Lab</title>
+  <title>Publications | Florez-Garcia Lab</title><meta name="color-scheme" content="light dark"><script>(function(){try{const saved=localStorage.getItem("fg-theme");const dark=saved?saved==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;document.documentElement.dataset.theme=dark?"dark":"light"}catch(e){}})();</script>
   <style>
     :root{--ink:#18231f;--muted:#68736e;--paper:#f5f4ef;--line:#d8ddd9;--accent:#315f50;--warm:#b87349;--max:1120px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
@@ -19,12 +19,22 @@ permalink: /publications/
     .back{display:inline-flex;margin-bottom:30px;text-decoration:none;border-bottom:1px solid var(--ink);font-size:.83rem;font-weight:800;padding-bottom:3px}
     footer{padding:40px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:25px}
     [data-lang="es"]{display:none}body.es [data-lang="en"]{display:none}body.es [data-lang="es"]{display:initial}body.es div[data-lang="es"],body.es p[data-lang="es"]{display:block}
+    .theme-toggle{margin-left:4px;font-size:1rem!important}
+    html[data-theme="dark"]{color-scheme:dark}
+    html[data-theme="dark"] body{--paper:#101512;--line:#34413b;--accent:#8fb9a8;--warm:#d39a73;--muted:#aab4af;background:#101512;color:#edf2ef}
+    html[data-theme="dark"] .topbar{background:rgba(16,21,18,.94)}
+    html[data-theme="dark"] .mark{border-color:#aab6b0}
+    html[data-theme="dark"] .intro,html[data-theme="dark"] .year-items p{color:#bcc7c1}
+    html[data-theme="dark"] .featured{background:#090f0c}
+    html[data-theme="dark"] .year-group{border-color:#66736d}
+    html[data-theme="dark"] .year-items strong{color:#edf2ef}
+    html[data-theme="dark"] .back{border-color:#aeb9b3}
     @media(max-width:760px){.navlinks a:not(:first-child){display:none}.hero{padding-top:58px}.wrap{width:min(var(--max),calc(100% - 28px))}.featured-grid{grid-template-columns:1fr;gap:25px}.pub-head,.foot{flex-direction:column;align-items:flex-start}.year-group summary{font-size:1.5rem}}
   </style>
 </head>
 <body>
 {% assign publication_post = site.posts | where: "title", "Publications" | first %}
-<header class="topbar"><div class="wrap nav"><a class="brand" href="/"><span class="mark">FG</span><strong>Florez-Garcia Lab</strong></a><nav class="navlinks"><a href="/"><span data-lang="en">Home</span><span data-lang="es">Inicio</span></a><a href="/#research"><span data-lang="en">Research</span><span data-lang="es">Investigación</span></a><a href="/publications/"><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></a><a href="/academic/"><span data-lang="en">Academic profile</span><span data-lang="es">Perfil académico</span></a><a href="/#contact"><span data-lang="en">Contact</span><span data-lang="es">Contacto</span></a><span class="lang"><button id="esBtn">ES</button><button id="enBtn" class="active">EN</button></span></nav></div></header>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="/"><span class="mark">FG</span><strong>Florez-Garcia Lab</strong></a><nav class="navlinks"><a href="/"><span data-lang="en">Home</span><span data-lang="es">Inicio</span></a><a href="/#research"><span data-lang="en">Research</span><span data-lang="es">Investigación</span></a><a href="/publications/"><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></a><a href="/academic/"><span data-lang="en">Academic profile</span><span data-lang="es">Perfil académico</span></a><a href="/#contact"><span data-lang="en">Contact</span><span data-lang="es">Contacto</span></a><span class="lang"><button id="esBtn">ES</button><button id="enBtn" class="active">EN</button><button id="themeBtn" class="theme-toggle" aria-label="Enable dark mode" title="Dark mode">☾</button></span></nav></div></header>
 <main>
   <section class="hero"><div class="wrap"><div class="eyebrow"><span data-lang="en">Research output</span><span data-lang="es">Producción científica</span></div><h1><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></h1><p class="intro"><span data-lang="en">One place for the lab's featured work and the complete peer-reviewed publication record.</span><span data-lang="es">Un espacio para consultar la investigación destacada del laboratorio y el registro completo de publicaciones revisadas por pares.</span></p></div></section>
 
@@ -34,9 +44,11 @@ permalink: /publications/
 </main>
 <footer><div class="wrap foot"><span>© 2026 Florez-Garcia Lab</span><span>University of Illinois Chicago</span></div></footer>
 <script>
-const esBtn=document.getElementById('esBtn'),enBtn=document.getElementById('enBtn');
-function setLanguage(lang){document.body.classList.toggle('es',lang==='es');document.documentElement.lang=lang;esBtn.classList.toggle('active',lang==='es');enBtn.classList.toggle('active',lang==='en');localStorage.setItem('fg-language',lang)}
-esBtn.addEventListener('click',()=>setLanguage('es'));enBtn.addEventListener('click',()=>setLanguage('en'));setLanguage(localStorage.getItem('fg-language')||'en');
+const esBtn=document.getElementById('esBtn'),enBtn=document.getElementById('enBtn'),themeBtn=document.getElementById('themeBtn');
+function syncThemeButton(lang){const dark=document.documentElement.dataset.theme==='dark';themeBtn.textContent=dark?'☀':'☾';const label=dark?(lang==='es'?'Activar modo claro':'Enable light mode'):(lang==='es'?'Activar modo oscuro':'Enable dark mode');themeBtn.setAttribute('aria-label',label);themeBtn.title=label}
+function setLanguage(lang){document.body.classList.toggle('es',lang==='es');document.documentElement.lang=lang;esBtn.classList.toggle('active',lang==='es');enBtn.classList.toggle('active',lang==='en');localStorage.setItem('fg-language',lang);syncThemeButton(lang)}
+function setTheme(theme,persist=true){document.documentElement.dataset.theme=theme;if(persist)localStorage.setItem('fg-theme',theme);syncThemeButton(document.documentElement.lang||'en')}
+esBtn.addEventListener('click',()=>setLanguage('es'));enBtn.addEventListener('click',()=>setLanguage('en'));themeBtn.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));setLanguage(localStorage.getItem('fg-language')||'en');setTheme(document.documentElement.dataset.theme||'light',false);
 (function(){
   const source=document.getElementById('raw-publications');
   const target=document.getElementById('year-groups');
