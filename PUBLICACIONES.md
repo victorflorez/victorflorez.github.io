@@ -4,7 +4,7 @@
 
 ## 2026
 
-**2026. Florez-Garcia V**, Torres-Bejarano F, Torres JA. Trace-element Bioaccumulation in Mytilus sp. from the Mallorquín Swamp, Colombia: Association with Water Physicochemical Conditions. Journal of Trace Elements in Medicine and Biology. 2026
+**Florez-Garcia V**, Torres-Bejarano F, Torres JA. Trace-element Bioaccumulation in Mytilus sp. from the Mallorquín Swamp, Colombia: Association with Water Physicochemical Conditions. Journal of Trace Elements in Medicine and Biology. 2026
 
 **Florez-Garcia V**, Guevara-Romero E, Rod JE, Santacruz-Salas E, Noronha N, Talayero-Schettino M, et al. Prenatal lead and intelligence quotient measured in children and adolescents: A systematic review and meta-analysis. Ecotoxicol Environ Saf 2026; 323:120710. https://doi.org/10.1016/J.ECOENV.2026.120710. [Leer artículo](https://www.sciencedirect.com/science/article/pii/S0147651326010407)
 
