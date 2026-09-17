@@ -29,17 +29,18 @@ permalink: /publications/
     html[data-theme="dark"] .year-items strong{color:#edf2ef}
     html[data-theme="dark"] .back{border-color:#aeb9b3}
     @media(max-width:760px){.navlinks a:not(:first-child){display:none}.hero{padding-top:58px}.wrap{width:min(var(--max),calc(100% - 28px))}.featured-grid{grid-template-columns:1fr;gap:25px}.pub-head,.foot{flex-direction:column;align-items:flex-start}.year-group summary{font-size:1.5rem}}
+  .publication-entry{display:grid;grid-template-columns:2.4em minmax(0,1fr);gap:8px;padding:18px 0;border-top:1px solid var(--line)}.publication-number{color:var(--muted)}.year-items .publication-text p{border:0;padding:0;margin:0 0 8px;overflow-wrap:anywhere}.publication-text a{overflow-wrap:anywhere}
   </style>
 </head>
 <body>
-{% assign publication_post = site.posts | where: "title", "Publications" | first %}
+
 <header class="topbar"><div class="wrap nav"><a class="brand" href="/"><span class="mark">FG</span><strong>Florez-Garcia Lab</strong></a><nav class="navlinks"><a href="/"><span data-lang="en">Home</span><span data-lang="es">Inicio</span></a><a href="/#research"><span data-lang="en">Research</span><span data-lang="es">Investigación</span></a><a href="/publications/"><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></a><a href="/academic/"><span data-lang="en">Academic profile</span><span data-lang="es">Perfil académico</span></a><a href="/#contact"><span data-lang="en">Contact</span><span data-lang="es">Contacto</span></a><span class="lang"><button id="esBtn">ES</button><button id="enBtn" class="active">EN</button></span></nav></div></header>
 <main>
   <section class="hero"><div class="wrap"><div class="eyebrow"><span data-lang="en">Research output</span><span data-lang="es">Producción científica</span></div><h1><span data-lang="en">Publications</span><span data-lang="es">Publicaciones</span></h1><p class="intro"><span data-lang="en">One place for the lab's featured work and the complete peer-reviewed publication record.</span><span data-lang="es">Un espacio para consultar la investigación destacada del laboratorio y el registro completo de publicaciones revisadas por pares.</span></p></div></section>
 
   <section class="featured" id="featured"><div class="wrap featured-grid"><div><div class="eyebrow"><span data-lang="en">Featured publication · 2026</span><span data-lang="es">Publicación destacada · 2026</span></div><div class="journal">Chemosphere</div><a class="btn" href="https://doi.org/10.1016/j.chemosphere.2026.144932" target="_blank" rel="noopener"><span data-lang="en">Read the article ↗</span><span data-lang="es">Leer el artículo ↗</span></a></div><div><h2><span data-lang="en">What could change if lead exposure were reduced?</span><span data-lang="es">¿Qué podría cambiar si se redujera la exposición al plomo?</span></h2><p><span data-lang="en">A study of the PROGRESS cohort in Mexico City combines biomarkers from multiple media with target trial emulation to examine lead exposure and children's intellectual functioning.</span><span data-lang="es">Un estudio de la cohorte PROGRESS en Ciudad de México combina biomarcadores de múltiples matrices con emulación de un ensayo objetivo para examinar la exposición al plomo y el funcionamiento intelectual infantil.</span></p><div class="citation">Florez-Garcia V, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. <em>Exposure to lead on children's intellectual functioning: A target trial with multimedia biomarkers in Mexico City.</em> Chemosphere. 2026;402:144932.</div></div></div></section>
 
-  <section class="pub-section" id="all"><div class="wrap"><a class="back" href="/"><span data-lang="en">← Back to lab home</span><span data-lang="es">← Volver al inicio del laboratorio</span></a><div class="pub-head"><h2><span data-lang="en">All publications</span><span data-lang="es">Todas las publicaciones</span></h2><span class="eyebrow"><span data-lang="en">Browse by year</span><span data-lang="es">Explorar por año</span></span></div><div id="year-groups"></div><div class="raw-publications" id="raw-publications">{{ publication_post.content }}</div></div></section>
+  <section class="pub-section" id="all"><div class="wrap"><a class="back" href="/"><span data-lang="en">← Back to lab home</span><span data-lang="es">← Volver al inicio del laboratorio</span></a><div class="pub-head"><h2><span data-lang="en">All publications</span><span data-lang="es">Todas las publicaciones</span></h2><span class="eyebrow"><span data-lang="en">Browse by year</span><span data-lang="es">Explorar por año</span></span></div><div id="year-groups">{% include publication-list.html %}</div></div></section>
 </main>
 <footer><div class="wrap foot"><span>© 2026 Florez-Garcia Lab</span></div></footer>
 <script>
@@ -47,30 +48,7 @@ const esBtn=document.getElementById('esBtn'),enBtn=document.getElementById('enBt
 function setLanguage(lang){document.body.classList.toggle('es',lang==='es');document.documentElement.lang=lang;esBtn.classList.toggle('active',lang==='es');enBtn.classList.toggle('active',lang==='en');localStorage.setItem('fg-language',lang)}
 
 esBtn.addEventListener('click',()=>setLanguage('es'));enBtn.addEventListener('click',()=>setLanguage('en'));setLanguage(localStorage.getItem('fg-language')||'en');
-(function(){
-  const source=document.getElementById('raw-publications');
-  const target=document.getElementById('year-groups');
-  const groups={};
-  Array.from(source.children).forEach(el=>{
-    const text=el.textContent||'';
-    const match=text.match(/\b(19|20)\d{2}\b/);
-    if(!match){el.remove();return;}
-    const year=match[0];
-    (groups[year]||(groups[year]=[])).push(el);
-  });
-  Object.keys(groups).sort((a,b)=>b.localeCompare(a)).forEach((year,idx)=>{
-    const details=document.createElement('details');
-    details.className='year-group';
-    if(idx===0) details.open=true;
-    const summary=document.createElement('summary');
-    summary.textContent=year;
-    const items=document.createElement('div');
-    items.className='year-items';
-    groups[year].forEach(el=>items.appendChild(el));
-    details.append(summary,items);
-    target.appendChild(details);
-  });
-})();
+
 </script>
 </body>
 </html>
