@@ -6,4 +6,4 @@ categories: media
 
 ## Peer Reviewed Articles
 
-{% include publication-list.html %}
+[Ver todas las publicaciones / View all publications](/publications/)

@@ -4,6 +4,35 @@ permalink: "/about/"
 layout: page
 ---
 
+# Florez-Garcia Lab — editar mi página
+
+Todo se actualiza desde este repositorio de GitHub. No necesitas Pages CMS ni otra cuenta.
+
+## Publicaciones
+
+### [✏️ EDITAR MIS PUBLICACIONES](https://github.com/victorflorez/victorflorez.github.io/edit/master/PUBLICACIONES.md)
+
+1. Pulsa el enlace anterior. Verás tu lista de referencias como texto, sin el código de la página.
+2. Debajo de `## 2026` (o el año correspondiente), pega la nueva referencia y deja una línea vacía antes y después. Puedes copiar una referencia existente como ejemplo. No escribas el número: se calcula automáticamente.
+3. Pulsa **Commit changes…**, escribe «Añadir publicación» y confirma con **Commit changes**. Eso guarda y publica los cambios.
+4. Espera a que termine la actualización y [consulta tu página de publicaciones](https://victorflorez.github.io/publications/).
+
+La pestaña **Preview** muestra el texto con su formato antes de guardar. Para crear otro año, escribe un encabezado como `## 2027` encima del año anterior. Conserva los años del más reciente al más antiguo.
+
+Para enlazar un artículo, copia el formato de los demás: `[Leer artículo](https://doi.org/DOI-DEL-ARTICULO)`.
+
+## Otros cambios
+
+- [Ver o editar biografía y ruta del CV](https://github.com/victorflorez/victorflorez.github.io/blob/master/_data/profile.json). Estos campos aún usan formato JSON; no son un formulario visual.
+- [Ver el PDF actual](https://github.com/victorflorez/victorflorez.github.io/blob/master/victor.pdf). Para sustituirlo manteniendo los enlaces, sube el nuevo PDF al repositorio con el mismo nombre `victor.pdf`.
+- [Ver si terminó la publicación](https://github.com/victorflorez/victorflorez.github.io/actions).
+
+El archivo que contiene las referencias es **PUBLICACIONES.md**, visible en la carpeta principal. `publications.html` solo controla cómo se muestran. Los cambios guardados en `master` actualizan la web pública.
+
+---
+
+## Documentación original del tema
+
 ## Installation
 
 Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.

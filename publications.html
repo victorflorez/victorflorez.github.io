@@ -40,7 +40,15 @@ permalink: /publications/
 
   <section class="featured" id="featured"><div class="wrap featured-grid"><div><div class="eyebrow"><span data-lang="en">Featured publication · 2026</span><span data-lang="es">Publicación destacada · 2026</span></div><div class="journal">Chemosphere</div><a class="btn" href="https://doi.org/10.1016/j.chemosphere.2026.144932" target="_blank" rel="noopener"><span data-lang="en">Read the article ↗</span><span data-lang="es">Leer el artículo ↗</span></a></div><div><h2><span data-lang="en">What could change if lead exposure were reduced?</span><span data-lang="es">¿Qué podría cambiar si se redujera la exposición al plomo?</span></h2><p><span data-lang="en">A study of the PROGRESS cohort in Mexico City combines biomarkers from multiple media with target trial emulation to examine lead exposure and children's intellectual functioning.</span><span data-lang="es">Un estudio de la cohorte PROGRESS en Ciudad de México combina biomarcadores de múltiples matrices con emulación de un ensayo objetivo para examinar la exposición al plomo y el funcionamiento intelectual infantil.</span></p><div class="citation">Florez-Garcia V, Keil AP, Wright RO, Martínez-Medina S, Estrada-Gutierrez G, Kalkbrenner AE. <em>Exposure to lead on children's intellectual functioning: A target trial with multimedia biomarkers in Mexico City.</em> Chemosphere. 2026;402:144932.</div></div></div></section>
 
-  <section class="pub-section" id="all"><div class="wrap"><a class="back" href="/"><span data-lang="en">← Back to lab home</span><span data-lang="es">← Volver al inicio del laboratorio</span></a><div class="pub-head"><h2><span data-lang="en">All publications</span><span data-lang="es">Todas las publicaciones</span></h2><span class="eyebrow"><span data-lang="en">Browse by year</span><span data-lang="es">Explorar por año</span></span></div><div id="year-groups">{% include publication-list.html %}</div></div></section>
+  <section class="pub-section" id="all"><div class="wrap"><a class="back" href="/"><span data-lang="en">← Back to lab home</span><span data-lang="es">← Volver al inicio del laboratorio</span></a><div class="pub-head"><h2><span data-lang="en">All publications</span><span data-lang="es">Todas las publicaciones</span></h2><span class="eyebrow"><span data-lang="en">Browse by year</span><span data-lang="es">Explorar por año</span></span></div><div id="year-groups">{% capture publication_text %}{% include_relative PUBLICACIONES.md %}{% endcapture %}
+{% assign year_sections = publication_text | split: '## ' %}
+{% for section in year_sections offset:1 %}
+{% assign year = section | slice: 0, 4 %}
+<details class="year-group" {% if forloop.first %}open{% endif %}>
+<summary>{{ year | escape }}</summary>
+<div class="year-items github-publications">{{ section | remove_first: year | markdownify }}</div>
+</details>
+{% endfor %}</div></div></section>
 </main>
 <footer><div class="wrap foot"><span>© 2026 Florez-Garcia Lab</span></div></footer>
 <script>
@@ -49,6 +57,16 @@ function setLanguage(lang){document.body.classList.toggle('es',lang==='es');docu
 
 esBtn.addEventListener('click',()=>setLanguage('es'));enBtn.addEventListener('click',()=>setLanguage('en'));setLanguage(localStorage.getItem('fg-language')||'en');
 
+(function(){
+  const entries=Array.from(document.querySelectorAll('.github-publications > p'));
+  entries.forEach((paragraph,index)=>{
+    const row=document.createElement('article');row.className='publication-entry';
+    const number=document.createElement('span');number.className='publication-number';number.textContent=(entries.length-index)+'.';
+    const text=document.createElement('div');text.className='publication-text';
+    paragraph.before(row);text.append(paragraph);row.append(number,text);
+    text.querySelectorAll('a').forEach(a=>{a.target='_blank';a.rel='noopener noreferrer';});
+  });
+})();
 </script>
 </body>
 </html>
