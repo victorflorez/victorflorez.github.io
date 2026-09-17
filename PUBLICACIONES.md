@@ -4,6 +4,8 @@
 
 ## 2026
 
+**2026. Florez-Garcia V**, Torres-Bejarano F, Torres JA. Trace-element Bioaccumulation in Mytilus sp. from the Mallorquín Swamp, Colombia: Association with Water Physicochemical Conditions. Journal of Trace Elements in Medicine and Biology. 2026
+
 **Florez-Garcia V**, Guevara-Romero E, Rod JE, Santacruz-Salas E, Noronha N, Talayero-Schettino M, et al. Prenatal lead and intelligence quotient measured in children and adolescents: A systematic review and meta-analysis. Ecotoxicol Environ Saf 2026; 323:120710. https://doi.org/10.1016/J.ECOENV.2026.120710. [Leer artículo](https://www.sciencedirect.com/science/article/pii/S0147651326010407)
 
 Rada-Tapias G, Ruiz D, Trejos A, Tuesca R, Acosta T, **Florez-Garcia V**. Relaciones Intrafamiliares y Síntomas de Depresión en Estudiantes de una Universidad del Distrito de Barranquilla, Colombia. Psiquiatría Biológica. 2026 May;100930. doi:10.1016/j.psiq.2026.100930 [Leer artículo](https://www.sciencedirect.com/science/article/abs/pii/S1134593426000436?via%3Dihub)
